@@ -7,7 +7,7 @@ import pic11 from '../assets/images/pic11.jpg'
 const Generic = (props) => (
     <Layout>
         <Helmet>
-            <title>Generic - Forty by HTML5 UP</title>
+            <title> 2020 New </title>
             <meta name="description" content="Generic Page" />
         </Helmet>
 
@@ -15,7 +15,7 @@ const Generic = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h1>Generic</h1>
+                        <h1> title </h1>
                     </header>
                     <span className="image main"><img src={pic11} alt="" /></span>
                     <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>

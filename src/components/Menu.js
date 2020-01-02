@@ -7,9 +7,17 @@ const Menu = (props) => (
         <div className="inner">
             <ul className="links">
                 <li><Link onClick={props.onToggleMenu} to="/">Home</Link></li>
-                <li><Link onClick={props.onToggleMenu} to="/landing">Landing</Link></li>
-                <li><Link onClick={props.onToggleMenu} to="/generic">Generic</Link></li>
-                <li><Link onClick={props.onToggleMenu} to="/elements">Elements</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/landing"> Love+ Design</Link></li>
+                     <li><Link onClick={props.onToggleMenu} to="/landing"> Love+ Insights</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/generic">Smartify</Link></li>
+                  <li><Link onClick={props.onToggleMenu} to="/generic">Trend Research II</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/generic">Trend Research I</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/elements">Spacechat</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/elements">Wish Message</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/elements">SprayIt</Link></li>
+                 <li><Link onClick={props.onToggleMenu} to="/elements">Honeycomb</Link></li>
+                 <li><Link onClick={props.onToggleMenu} to="/elements">WeatherCessories</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/elements">Moodie</Link></li>
             </ul>
             <ul className="actions vertical">
                 <li><a href="#" className="button special fit">Get Started</a></li>

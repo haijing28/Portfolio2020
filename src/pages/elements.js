@@ -3,9 +3,9 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
 import pic03 from '../assets/images/pic03.jpg'
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
+import controller1 from '../assets/images/controller1.jpg'
+import controller2 from '../assets/images/controller2.jpg'
+import controller3 from '../assets/images/controller3.jpg'
 
 const Elements = (props) => (
     <Layout>
@@ -23,11 +23,11 @@ const Elements = (props) => (
                     </header>
 
                     <h2 id="content">Sample Content</h2>
-                    <p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
+                    <p>......</p>
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <h3>Sem turpis amet semper</h3>
-                            <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+                            <p>......</p>
                         </div>
                         <div className="col-6">
                             <h3>Magna odio tempus commodo</h3>
@@ -99,20 +99,21 @@ const Elements = (props) => (
                                         <h4>Icons</h4>
                                         <ul className="icons">
                                             <li><a href="#" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
-                                            <li><a href="#" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
+                                            <li><a href="#" className="icon fa-wechat"><span className="label">Wechat</span></a></li>
                                             <li><a href="#" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
                                             <li><a href="#" className="icon fa-github"><span className="label">Github</span></a></li>
-                                            <li><a href="#" className="icon fa-dribbble"><span className="label">Dribbble</span></a></li>
-                                            <li><a href="#" className="icon fa-tumblr"><span className="label">Tumblr</span></a></li>
+                                          
+    
                                         </ul>
                                         <ul className="icons">
                                             <li><a href="#" className="icon alt fa-twitter"><span className="label">Twitter</span></a></li>
-                                            <li><a href="#" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li>
+                                            <li><a href="#" className="icon alt fa-wechat"><span className="label">Wechat</span></a></li>
                                             <li><a href="#" className="icon alt fa-instagram"><span className="label">Instagram</span></a></li>
                                         </ul>
 
                                     </div>
                                 </div>
+
                                 <h4>Definition</h4>
                                 <dl>
                                     <dt>Item1</dt>
@@ -381,21 +382,21 @@ const Elements = (props) => (
                                 <span className="image fit"><img src={pic03} alt="" /></span>
                                 <div className="box alt">
                                     <div className="grid-wrapper">
-                                        <div className="col-4"><span className="image fit"><img src={pic08} alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src={pic09} alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src={pic10} alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src={pic10} alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src={pic08} alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src={pic09} alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src={pic09} alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src={pic10} alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src={pic08} alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src={controller1} alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src={controller2} alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src={controller3} alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src={controller3} alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src={controller1} alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src={controller2} alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src={controller2} alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src={controller3} alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src={controller3} alt="" /></span></div>
                                     </div>
                                 </div>
 
                                 <h4>Left &amp; Right</h4>
-                                <p><span className="image left"><img src={pic09} alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
-                                <p><span className="image right"><img src={pic10} alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
+                                <p><span className="image left"><img src={controller2} alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
+                                <p><span className="image right"><img src={controller3} alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
 
                                 <h3>Box</h3>
                                 <div className="box">
@@ -409,8 +410,8 @@ const Elements = (props) => (
                                 </code></pre>
 
                         </div>
-                    </div>
 
+                    </div>
                 </div>
             </section>
 
