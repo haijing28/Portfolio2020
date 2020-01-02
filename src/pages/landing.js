@@ -11,8 +11,8 @@ import pic10 from '../assets/images/pic10.jpg'
 const Landing = (props) => (
     <Layout>
         <Helmet>
-            <title>Landing - Forty by HTML5 UP</title>
-            <meta name="description" content="Landing Page" />
+            <title> Designpholio </title>
+            <meta name="description" content="Home Page" />
         </Helmet>
 
         <BannerLanding />

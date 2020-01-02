@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-forty-v2",
-  "description": "Gatsby Starter - Forty V2",
+  "name": "Designpholio",
+  "description": "Haijing Portfolio 2020",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Haijing Liu",
   "dependencies": {
     "gatsby": "^2.15.14",
     "gatsby-plugin-manifest": "^2.2.16",
@@ -15,7 +15,9 @@
     "react-helmet": "^5.2.1"
   },
   "keywords": [
-    "gatsby"
+    "Design","User Experience","Parsons","Interaction Designer","Lean UX","Strategist","Product Designer",
+    "Creative Technologist","Innovation Insights","Innovation Engineering","Entreprenuer"
+
   ],
   "license": "MIT",
   "scripts": {
@@ -29,6 +31,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/haijing28/Portfolio2020"
   }
 }
