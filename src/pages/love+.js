@@ -11,32 +11,32 @@ import controller3 from '../assets/images/controller3.jpg'
 const Landing = (props) => (
     <Layout>
         <Helmet>
-            <title> Designpholio </title>
-            <meta name="description" content="Home Page" />
+            <title> Love+ </title>
+            <meta name="description" content="Love+" />
         </Helmet>
 
-        <BannerLanding />
+        <BannerLanding/>
 
         <div id="main">
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h2> content placeholder </h2>
+                        <h2> Love+ </h2>
                     </header>
-                    <p>content placeholder </p>
+                    <p>Hardware as a service, family wellness solution, powered by electrolux </p>
                 </div>
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/smartify" className="image">
                         <img src={controller1} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>content placeholder </h3>
+                                <h3> smartify </h3>
                             </header>
-                            <p>content placeholder,content placeholder</p>
+                            <p>product innovation, produced by Midea Corporation Research Center</p>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>
@@ -44,7 +44,7 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/smartify" className="image">
                         <img src={controller2} alt="" />
                     </Link>
                     <div className="content">
