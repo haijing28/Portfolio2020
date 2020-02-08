@@ -20,24 +20,24 @@
 
 // Font.
 	$font: (
-		family:				('Source Sans Pro', Helvetica, sans-serif),
-		family-fixed:		('Metropolis','Comfortaa'),
+		family:				('Roboto', Helvetica, sans-serif),
+		family-fixed:		('Metropolis','Comfortaa',sans-serif)!important,
 		weight:				100,
 		weight-bold:		500,
-		letter-spacing:		0.025em,
-		letter-spacing-alt:	0.25em
+		letter-spacing:		0.1em,
+		letter-spacing-alt:	0.4em
 	);
 
 // Palette.
 	$palette: (
-		bg:					#63696e,
+		bg:					#5B6065, /*darkerbg*/
 		bg-alt:				#63696e,
-		fg:					#ffffff,
-		fg-bold:			#ffffff,
+		fg:					#B7BFC6, /*font-color*/
+		fg-bold:			#F1F5F7, /*font-color*/
 		fg-light:			rgba(244,244,255,0.2),
-		border:				rgba(212,212,255,0.1),
-		border-bg:			rgba(212,212,255,0.035),
-		highlight:			#9bf1ff,
+		border:				rgba(230,236,240,0.1),
+		border-bg:			rgba(241,245,247,0.035),
+		highlight:			#C40558, /*hover*/
 		accent1:			#9B182F, /*#605038, LOVE+*/
 		accent2:			#343a40, /*Midea UX*/
 		accent3:			#0095d6, /*Midea Research/Insights*/
