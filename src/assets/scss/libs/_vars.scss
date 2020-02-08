@@ -20,12 +20,12 @@
 
 // Font.
 	$font: (
-		family:				('Roboto', Helvetica, sans-serif),
-		family-fixed:		('Metropolis','Comfortaa',sans-serif)!important,
+		family:				('Metropolis',sans-serif),
+		family-fixed:		('Comfortaa',sans-serif),
 		weight:				100,
-		weight-bold:		500,
-		letter-spacing:		0.1em,
-		letter-spacing-alt:	0.4em
+		weight-bold:		300,
+		letter-spacing:		0.05em,
+		letter-spacing-alt:	0.04em
 	);
 
 // Palette.

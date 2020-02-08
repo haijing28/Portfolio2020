@@ -16,8 +16,8 @@
 				border-left: solid 1px _palette(border);
 				color: _palette(fg-light);
 				display: inline-block;
-				line-height: 1;
-				margin-left: 1em;
+				line-height: 0.2;
+				margin-left: 0em;
 				padding-left: 1em;
 
 				&:first-child {
@@ -28,7 +28,7 @@
 			}
 		}
 
-		@include breakpoint(xsmall) {
+		/*@include breakpoint(xsmall) {
 			.copyright {
 				li {
 					display: block;
@@ -38,5 +38,5 @@
 					line-height: inherit;
 				}
 			}
-		}
+		}*/
 	}

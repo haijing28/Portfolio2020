@@ -15,7 +15,7 @@ const Contact = (props) => (
                     </div>
                     <div className="field">
                         <label htmlFor="message">Message</label>
-                        <textarea name="message" id="message" rows="6"></textarea>
+                        <textarea name="message" id="message" rows="3"></textarea>
                     </div>
                     <ul className="actions">
                         <li><input type="submit" value="Send Message" className="special" /></li>
