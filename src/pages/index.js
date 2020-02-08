@@ -75,9 +75,11 @@ class HomeIndex extends React.Component {
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>Massa libero</h2>
+                                <h2>About Me</h2>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                            <p> Experience & Service Designer.
+                            Implement sustainable values among products, users and reshaping experience for our better humanity with compassion, sense of aesthetics, humor. 
+Knowledges in science and culture in hybrids.</p>
                             <ul className="actions">
                                 <li><Link to="/landing" className="button next">View All</Link></li>
                             </ul>
