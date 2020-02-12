@@ -29,12 +29,12 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 			cursor: default;
-			height: 40vh;
-			max-height: 40em;
+			height: 35vh;
+			max-height: 35em;
 			min-height: 23em;
 			overflow: hidden;
 			position: relative;
-			width: 40%;
+			width: 100%;
 
 			.image {
 				display: none;
@@ -43,10 +43,13 @@
 			header {
 				position: relative;
 				z-index: 3;
+				padding:60px 140px;
+
 			}
 
 			h3 {
-				font-size: 1.75em;
+				font-size: 3.2em;
+				font-weight: 400;
 
 				a {
 					&:hover {
@@ -104,7 +107,7 @@
 
 			&:nth-child(4n - 1),
 			&:nth-child(4n - 2) {
-				width: 60%;
+				width: 100%;
 			}
 
 			&:nth-child(6n - 5) {

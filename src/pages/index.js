@@ -10,6 +10,19 @@ import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
+import pic07 from '../assets/images/pic06.jpg'
+import TrendResearch from '../assets/images/pic06.jpg'
+
+         //Thumbnails 
+               //loveplus
+               //Midea,smart-controller
+               //Midea,colmo UX 
+               //MideaTrendResearch
+               //Spacechat
+               //WishMessage
+               //HoneyComb           
+               //Sprayit
+
 
 class HomeIndex extends React.Component {
     render() {
@@ -27,51 +40,79 @@ class HomeIndex extends React.Component {
 
                 <Banner />
 
+       
+
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${love01})`}}>
+
+                     
+                       <article style={{backgroundImage: `url(${love01})`}}>
                             <header className="major">
                                 <h3>Love+</h3>
                                 <p>hardware as a service, powered by electrolux</p>
                             </header>
                             <Link to="/love+" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${love02})`}}>
+                        </article> 
+
+                   
+                      
+                      <article style={{backgroundImage: `url(${love02})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Smartify</h3>
+                                <p>Midea Product Innovation for Millennial Life Style</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
+
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>Colmo UX</h3>
+                                <p> Premium Appliance UX Strategy & Design</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
+
+
+                          <article style={{backgroundImage: `url(${TrendResearch})`}}>
                             <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
+                                <h3>Midea Trend Research</h3>
+                                <p>Design Trend HandBook for Midea Group</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
+
+                             <article style={{backgroundImage: `url(${pic04})`}}>
+                            <header className="major">
+                                <h3>Spacechat</h3>
+                                <p> Location Based Service </p>
+                            </header>
+                            <Link to="/landing" className="link primary"></Link>
+                        </article>
+
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Wish Message</h3>
+                                <p>MFA Design & Technology Thesis</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
+                                <h3>Honeycomb</h3>
+                                <p>Product Innovation @Mozilla NYC Lab </p>
+                            </header>
+                            <Link to="/landing" className="link primary"></Link>
+                        </article>
+
+                         <article style={{backgroundImage: `url(${pic07})`}}>
+                            <header className="major">
+                                <h3>Sprayit</h3>
+                                <p> Real Time Collaborative Doodling Tool </p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                     </section>
+
                     <section id="two">
                         <div className="inner">
                             <header className="major">
