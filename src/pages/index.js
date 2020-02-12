@@ -38,7 +38,7 @@ class HomeIndex extends React.Component {
                 >
                 </Helmet>
 
-                <Banner />
+                <Banner/>
 
        
 
