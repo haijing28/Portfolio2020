@@ -111,6 +111,8 @@
 		&.style4 { &:after { background-color: _palette(accent4); } }
 		&.style5 { &:after { background-color: _palette(accent5); } }
 		&.style6 { &:after { background-color: _palette(accent6); } }
+		&.style7 { &:after { background-color: _palette(accent7); } }
+		&.style8 { &:after { background-color: _palette(accent8); } }
 
 		.body.is-loading & {
 			&:after {

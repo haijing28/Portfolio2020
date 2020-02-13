@@ -4,14 +4,14 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import love01 from '../assets/images/love01.jpg'
-import love02 from '../assets/images/love02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
-import pic07 from '../assets/images/pic06.jpg'
-import TrendResearch from '../assets/images/pic06.jpg'
+import love from '../assets/images/love01.jpg'
+import smty from '../assets/images/love02.jpg'
+import colm from '../assets/images/pic03.jpg'
+import trnd from '../assets/images/pic04.jpg'
+import spch from '../assets/images/pic05.jpg'
+import wsmg from '../assets/images/pic06.jpg'
+import hncb from '../assets/images/pic06.jpg'
+import spyt from '../assets/images/pic06.jpg'
 
          //Thumbnails 
                //loveplus
@@ -46,7 +46,7 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
 
                      
-                       <article style={{backgroundImage: `url(${love01})`}}>
+                        <article style={{backgroundImage: `url(${love})`}}>
                             <header className="major">
                                 <h3>Love+</h3>
                                 <p>hardware as a service, powered by electrolux</p>
@@ -56,7 +56,7 @@ class HomeIndex extends React.Component {
 
                    
                       
-                      <article style={{backgroundImage: `url(${love02})`}}>
+                        <article style={{backgroundImage: `url(${smty})`}}>
                             <header className="major">
                                 <h3>Smartify</h3>
                                 <p>Midea Product Innovation for Millennial Life Style</p>
@@ -64,7 +64,8 @@ class HomeIndex extends React.Component {
                             <Link to="/landing" className="link primary"></Link>
                         </article>
 
-                        <article style={{backgroundImage: `url(${pic03})`}}>
+
+                        <article style={{backgroundImage: `url(${colm})`}}>
                             <header className="major">
                                 <h3>Colmo UX</h3>
                                 <p> Premium Appliance UX Strategy & Design</p>
@@ -73,7 +74,7 @@ class HomeIndex extends React.Component {
                         </article>
 
 
-                          <article style={{backgroundImage: `url(${TrendResearch})`}}>
+                        <article style={{backgroundImage: `url(${trnd})`}}>
                             <header className="major">
                                 <h3>Midea Trend Research</h3>
                                 <p>Design Trend HandBook for Midea Group</p>
@@ -81,7 +82,8 @@ class HomeIndex extends React.Component {
                             <Link to="/landing" className="link primary"></Link>
                         </article>
 
-                             <article style={{backgroundImage: `url(${pic04})`}}>
+
+                        <article style={{backgroundImage: `url(${spch})`}}>
                             <header className="major">
                                 <h3>Spacechat</h3>
                                 <p> Location Based Service </p>
@@ -89,14 +91,17 @@ class HomeIndex extends React.Component {
                             <Link to="/landing" className="link primary"></Link>
                         </article>
 
-                        <article style={{backgroundImage: `url(${pic05})`}}>
+
+                        <article style={{backgroundImage: `url(${wsmg})`}}>
                             <header className="major">
                                 <h3>Wish Message</h3>
                                 <p>MFA Design & Technology Thesis</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
+
+
+                        <article style={{backgroundImage: `url(${hncb})`}}>
                             <header className="major">
                                 <h3>Honeycomb</h3>
                                 <p>Product Innovation @Mozilla NYC Lab </p>
@@ -104,13 +109,16 @@ class HomeIndex extends React.Component {
                             <Link to="/landing" className="link primary"></Link>
                         </article>
 
-                         <article style={{backgroundImage: `url(${pic07})`}}>
+
+                         <article style={{backgroundImage: `url(${spyt})`}}>
                             <header className="major">
                                 <h3>Sprayit</h3>
                                 <p> Real Time Collaborative Doodling Tool </p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
+
+                        
                     </section>
 
                     <section id="two">
