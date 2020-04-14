@@ -103,7 +103,7 @@
 @mixin flexgrid-columns($columns) {
 
 	> * {
-		$cell-width: 100% / $columns;
+		$cell-width: 90% / $columns;
 		width: #{$cell-width};
 	}
 

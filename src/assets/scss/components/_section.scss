@@ -18,36 +18,37 @@
 			width: -webkit-max-content;
 			width: -ms-max-content;
 			width: max-content;
-			margin-bottom: _size(element-margin);
+			margin-bottom: 0!important;/*_size(element-margin);*/
 
-			> :first-child {
+/*			> :first-child {
 				margin-bottom: 0;
-				width: calc(100% + 0.5em);
+				width: calc(100% + 0.2em);
 
 				&:after {
 					content: '';
 					background-color: _palette(fg-bold);
 					display: block;
-					height: 2px;
-					margin: 0.325em 0 0.5em 0;
+					height: 1px;
+					margin: 0.2em 0 0.2em 0;
 					width: 100%;
 				}
+				
 			}
-
+*/
 			> p {
-				font-size: 0.8em;
+				font-size: 0.85em;
 				font-weight: _font(weight-bold);
 				letter-spacing: _font(letter-spacing-alt);
-				margin-bottom: 0;
+				margin-bottom: 0!important;
 				text-transform: uppercase;
 			}
 
 			body.is-ie & {
-				> :first-child {
+		/*		> :first-child {
 					&:after {
 						max-width: 9em;
 					}
-				}
+				}*/
 
 				> h1 {
 					&:after {
@@ -55,6 +56,7 @@
 					}
 				}
 			}
+
 		}
 
 		@include breakpoint(small) {

@@ -37,18 +37,23 @@ class HomeIndex extends React.Component {
                     meta={[
                         { name: 'description', content: 'Haijing Portfolio' },
                         { name: 'keywords', content: 'Interaction Designer, Service Designer, Product Designer, Design Strategist, Design Entreprenuer' },
-                    ]}  
-                >    
+                    ]}
+                >
+                </Helmet>
+
                 <Banner/>
-             
+
+       
+
                 <div id="main">
+
                     <section id="one" className="tiles">
 
                      
                                 <article style={{backgroundImage: `url(${love})`}}>
                                     <header className="major">
                                         <h3>Love+</h3>
-                                        <p>hardware as a service, powered by electrolux</p>
+                                        <p>hardware as a service, family wellbeing solution</p>
                                     </header>
                                     <Link to="/love+" className="link primary"></Link>
                                 </article> 
@@ -58,7 +63,7 @@ class HomeIndex extends React.Component {
                                 <article style={{backgroundImage: `url(${smty})`}}>
                                     <header className="major">
                                         <h3>Smartii</h3>
-                                        <p>Midea Product Innovation for Millennial Life Style</p>
+                                        <p>Midea Innovation for Millennial Life Style</p>
                                     </header>
                                     <Link to="/landing" className="link primary"></Link>
                                 </article>
@@ -67,7 +72,7 @@ class HomeIndex extends React.Component {
                                 <article style={{backgroundImage: `url(${colm})`}}>
                                     <header className="major">
                                         <h3>Colmo UX</h3>
-                                        <p> Premium Appliance UX Strategy & Design</p>
+                                        <p> Premium Appliance UX Strategy </p>
                                     </header>
                                     <Link to="/landing" className="link primary"></Link>
                                 </article>
@@ -120,24 +125,22 @@ class HomeIndex extends React.Component {
                     </section>
 
 
-
-
                     <section id="two">
                         <div className="inner">
                             <header className="major">
                                 <h2>About & Objectives</h2>
                             </header>
                             <p> Experience & Service Designer.
-                            Implement sustainable values among products, users and reshaping experience for our better humanity with compassion, sense of aesthetics, humor. 
-Knowledges in science and culture in hybrids.</p>
+                            Have a vision of implementing sustainable values among products, users and reshaping experience for our better humanity with compassion, sense of aesthetics, humor. 
+Knowledges of science and culture in hybrids.</p>
                             <ul className="actions">
                                 <li><Link to="/landing" className="button next">View Detail</Link></li>
                             </ul>
-                        </div>
+                        </div>                        
                     </section>
-                </div>
+                    </div>
 
-            </Layout>
+                    </Layout>
         )
     }
 }

@@ -43,18 +43,23 @@
 			header {
 				position: relative;
 				z-index: 3;
-				padding:100px 140px;
+				padding:10px 100px;
+			/*	background-color: _palette(accent1); inherit !important;*/
+
 
 			}
 
 			h3 {
-				font-size: 2.4em;
-				font-weight: 600;
+				font-size: 2.3em;
+				font-weight: 500;
 
 				a {
 					&:hover {
-						color: inherit !important;
+					   &:before{
+					         opacity: 0.3;
+					     }
 					}
+					/*	color: inherit !important; *//*transparentize(_palette(bg), 0.75)!important; /*i*/
 				}
 			}
 
@@ -95,7 +100,7 @@
 
 			&:hover {
 				&:before {
-					opacity: 0;
+					opacity: 0.1;
 				}
 			}
 
