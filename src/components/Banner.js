@@ -4,7 +4,7 @@ const Banner = (props) => (
     <section id="banner" className="major">
         <div className="inner">
             <header className="major">
-                <h1> Reshape better experience for a sustainable culture </h1>
+                <h1> Shape better experience for a sustainable culture </h1>
             </header>
             <div className="content">
                 <p> a collection of Haijing‘s work <br/> 

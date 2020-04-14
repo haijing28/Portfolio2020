@@ -1,18 +1,3 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import Helmet from 'react-helmet'
-import Layout from '../components/layout'
-import Banner from '../components/Banner'
-
-import love from '../assets/images/love.png'
-import smty from '../assets/images/love02.jpg'
-import colm from '../assets/images/pic03.jpg'
-import trnd from '../assets/images/pic04.jpg'
-import spch from '../assets/images/pic05.jpg'
-import wsmg from '../assets/images/pic06.jpg'
-import hncb from '../assets/images/pic06.jpg'
-import spyt from '../assets/images/pic06.jpg'
-
          //Thumbnails 
                //loveplus
                //Midea,smart-controller
@@ -24,6 +9,24 @@ import spyt from '../assets/images/pic06.jpg'
                //Sprayit
 
 
+import React from 'react'
+import { Link } from 'gatsby'
+import Helmet from 'react-helmet'
+import Layout from '../components/layout'
+import Banner from '../components/Banner'
+
+import love from '../assets/images/love.png'
+import smty from '../assets/images/smartify.png'
+import colm from '../assets/images/colmo.png'
+import trnd from '../assets/images/designtrendPH.png'
+import spch from '../assets/images/spacechat.png'
+import wsmg from '../assets/images/wishmessage.png'
+import hncb from '../assets/images/pic06.jpg'
+import spyt from '../assets/images/sprayit.png'
+
+
+
+
 class HomeIndex extends React.Component {
     render() {
 
@@ -32,16 +35,12 @@ class HomeIndex extends React.Component {
                 <Helmet
                     title="DesignLens"
                     meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
-                    ]}
-                >
-                </Helmet>
-
+                        { name: 'description', content: 'Haijing Portfolio' },
+                        { name: 'keywords', content: 'Interaction Designer, Service Designer, Product Designer, Design Strategist, Design Entreprenuer' },
+                    ]}  
+                >    
                 <Banner/>
-
-       
-
+             
                 <div id="main">
                     <section id="one" className="tiles">
 
@@ -58,7 +57,7 @@ class HomeIndex extends React.Component {
                               
                                 <article style={{backgroundImage: `url(${smty})`}}>
                                     <header className="major">
-                                        <h3>Smartify</h3>
+                                        <h3>Smartii</h3>
                                         <p>Midea Product Innovation for Millennial Life Style</p>
                                     </header>
                                     <Link to="/landing" className="link primary"></Link>
@@ -126,13 +125,13 @@ class HomeIndex extends React.Component {
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>About Me</h2>
+                                <h2>About & Objectives</h2>
                             </header>
                             <p> Experience & Service Designer.
                             Implement sustainable values among products, users and reshaping experience for our better humanity with compassion, sense of aesthetics, humor. 
 Knowledges in science and culture in hybrids.</p>
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">View All</Link></li>
+                                <li><Link to="/landing" className="button next">View Detail</Link></li>
                             </ul>
                         </div>
                     </section>
