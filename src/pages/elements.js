@@ -3,9 +3,9 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
 import pic03 from '../assets/images/pic03.jpg'
-import controller1 from '../assets/images/controller1.jpg'
-import controller2 from '../assets/images/controller2.jpg'
-import controller3 from '../assets/images/controller3.jpg'
+import controller1 from '../assets/images/love/Love1.jpg'
+import controller2 from '../assets/images/love/Love2.jpg'
+import controller3 from '../assets/images/love/Love3.jpg'
 
 const Elements = (props) => (
     <Layout>

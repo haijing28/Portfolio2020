@@ -80,7 +80,7 @@ class HomeIndex extends React.Component {
 
                                 <article style={{backgroundImage: `url(${trnd})`}}>
                                     <header className="major">
-                                        <h3>Midea Trend Research</h3>
+                                        <h3>20-25 Trend Research</h3>
                                         <p>Design Trend HandBook for Midea Group</p>
                                     </header>
                                     <Link to="/landing" className="link primary"></Link>
