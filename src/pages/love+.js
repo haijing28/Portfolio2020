@@ -4,23 +4,17 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
-<<<<<<< HEAD
 import love1 from '../assets/images/love/Love1.png'
 import love2 from '../assets/images/love/Love2.png'
 import love3 from '../assets/images/love/Love3.png'
 import love4 from '../assets/images/love/Love4.png'
-=======
-import love1 from '../assets/images/love/Love1.jpg'
-import love2 from '../assets/images/love/Love2.jpg'
-import love3 from '../assets/images/love/Love3.jpg'
-import love4 from '../assets/images/love/Love3.jpg'
->>>>>>> 6594ec53e34b911496e5750c8754ba2bb46bdbc4
+
 
 const Landing = (props) => (
     <Layout>
         <Helmet>
             <title> Love+ </title>
-            <meta name="description" content="Love+" />
+            <meta name="description" content="Love+"/>
         </Helmet>
 
         <BannerLanding/>
@@ -42,7 +36,7 @@ const Landing = (props) => (
 
                         <section>
                             <Link to="/love+" className="image">
-                                <img src={love1} alt="pca" />
+                                <img src={love1} alt="pca"/>
                             </Link>
                             <div className="content">
                                 <div className="inner">
@@ -57,7 +51,7 @@ const Landing = (props) => (
 
                             <section>
                                 <Link to="/love+" className="image">
-                                    <img src={love2} alt="reminder" />
+                                    <img src={love2} alt="reminder"/>
                                 </Link>
                                 <div className="content">
                                     <div className="inner">
@@ -72,7 +66,7 @@ const Landing = (props) => (
 
                                 <section>
                                     <Link to="/love+" className="image">
-                                        <img src={love3} alt="points" />
+                                        <img src={love3} alt="points"/>
                                     </Link>
                                     <div className="content">
                                         <div className="inner">
@@ -90,20 +84,12 @@ const Landing = (props) => (
 
                                 <section>
                                     <Link to="/love+" className="image">
-<<<<<<< HEAD
-                                        <img src={love4} alt="points" />
-=======
-                                        <img src={love4} alt="IOT" />
->>>>>>> 6594ec53e34b911496e5750c8754ba2bb46bdbc4
+                                        <img src={love4} alt="IOT"/>
                                     </Link>
                                     <div className="content">
                                         <div className="inner">
                                             <header className="major">
-<<<<<<< HEAD
-                                                <h3> IOT & Paid Users </h3>
-=======
-                                                <h3>IOT & Paid Users </h3>
->>>>>>> 6594ec53e34b911496e5750c8754ba2bb46bdbc4
+                                              <h3>IOT & Paid Users </h3>
                                             </header>
                                             <p> Caring Points system is an incentive method that is designed to grow unpaid users’ retention rate and conversion rate. 
                                             Love+ users gain caring points by using activity and reminder modules as redeem once they make a purchase or subscription for the selected electrolux hardware service program.  </p>
