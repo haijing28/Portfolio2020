@@ -14,8 +14,8 @@ const Menu = (props) => (
                 <li><Link onClick={props.onToggleMenu} to="/wishmessage">Wish Message</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/sprayit">SprayIt</Link></li>
                  <li><Link onClick={props.onToggleMenu} to="/honeycomb">Honeycomb</Link></li>
-                 <li><Link onClick={props.onToggleMenu} to="/weather">WeatherCessories</Link></li>
-                <li><Link onClick={props.onToggleMenu} to="/Moodie">Moodie</Link></li>
+                //  <li><Link onClick={props.onToggleMenu} to="/weather">WeatherCessories</Link></li>
+                // <li><Link onClick={props.onToggleMenu} to="/Moodie">Moodie</Link></li>
             </ul>
       
         </div>

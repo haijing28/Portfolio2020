@@ -1,10 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
 import '../assets/scss/main.scss'
 import Header from './Header'
 import Menu from './Menu'
-import Contact from './Contact'
 import Footer from './Footer'
 
 class Layout extends React.Component {
@@ -43,8 +41,8 @@ class Layout extends React.Component {
                 <div id="wrapper">
                     <Header onToggleMenu={this.handleToggleMenu} />
                     {children}
-                    <Contact />
-                    <Footer />
+                   
+                    <Footer/>
                 </div>
                 <Menu onToggleMenu={this.handleToggleMenu} />
             </div>

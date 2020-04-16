@@ -3,14 +3,14 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
 import pic03 from '../assets/images/pic03.jpg'
-import controller1 from '../assets/images/love/Love1.jpg'
-import controller2 from '../assets/images/love/Love2.jpg'
-import controller3 from '../assets/images/love/Love3.jpg'
+import controller1 from '../assets/images/love/Love1.png'
+import controller2 from '../assets/images/love/Love2.png'
+import controller3 from '../assets/images/love/Love3.png'
 
 const Elements = (props) => (
     <Layout>
         <Helmet>
-            <title>Designpholio</title>
+            <title>Designlens</title>
             <meta name="description" content="Elements Page" />
         </Helmet>
 

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Designpholio",
+    title: "DesignLens",
     author: "Haijing Liu",
     description: "Haijing Portfolio 2020"
   },
