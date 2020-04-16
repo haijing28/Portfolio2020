@@ -65,7 +65,7 @@ class HomeIndex extends React.Component {
                                         <h3>Smartii</h3>
                                         <p>Midea Innovation for Millennial Life Style</p>
                                     </header>
-                                    <Link to="/landing" className="link primary"></Link>
+                                    <Link to="/elements" className="link primary"></Link>
                                 </article>
 
 

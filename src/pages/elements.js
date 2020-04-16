@@ -3,9 +3,9 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
 import pic03 from '../assets/images/pic03.jpg'
-import controller1 from '../assets/images/love/Love1.png'
-import controller2 from '../assets/images/love/Love2.png'
-import controller3 from '../assets/images/love/Love3.png'
+import love1 from '../assets/images/love/Love1.png'
+import love2 from '../assets/images/love/Love2.png'
+import love3 from '../assets/images/love/Love3.png'
 
 const Elements = (props) => (
     <Layout>
@@ -382,21 +382,21 @@ const Elements = (props) => (
                                 <span className="image fit"><img src={pic03} alt="" /></span>
                                 <div className="box alt">
                                     <div className="grid-wrapper">
-                                        <div className="col-4"><span className="image fit"><img src={controller1} alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src={controller2} alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src={controller3} alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src={controller3} alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src={controller1} alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src={controller2} alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src={controller2} alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src={controller3} alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src={controller3} alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src={Love1} alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src={Love2} alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src={love3} alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src={love3} alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src={Love1} alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src={Love2} alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src={Love2} alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src={love3} alt="" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src={love3} alt="" /></span></div>
                                     </div>
                                 </div>
 
                                 <h4>Left &amp; Right</h4>
-                                <p><span className="image left"><img src={controller2} alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
-                                <p><span className="image right"><img src={controller3} alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
+                                <p><span className="image left"><img src={Love2} alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
+                                <p><span className="image right"><img src={love3} alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
 
                                 <h3>Box</h3>
                                 <div className="box">
