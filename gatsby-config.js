@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Designpholio",
+    title: "Designlens",
     author: "Haijing Liu",
     description: "Haijing Portfolio 2020"
   },
@@ -15,7 +15,7 @@ module.exports = {
         background_color: '#FAF9FD',
         theme_color: '#ED207C',
         display: 'minimal-ui',
-        icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site. new icon to be add
+        icon: 'src/assets/images/designlens.png', // This path is relative to the root of the site. new icon to be add
       },
     },
     'gatsby-plugin-sass',

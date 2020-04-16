@@ -7,6 +7,7 @@ import BannerLanding from '../components/BannerLanding'
 import love1 from '../assets/images/love/Love1.jpg'
 import love2 from '../assets/images/love/Love2.jpg'
 import love3 from '../assets/images/love/Love3.jpg'
+import love4 from '../assets/images/love/Love3.jpg'
 
 const Landing = (props) => (
     <Layout>
@@ -33,7 +34,7 @@ const Landing = (props) => (
             <section id="two" className="spotlights">
 
                         <section>
-                            <Link to="/smartify" className="image">
+                            <Link to="/love+" className="image">
                                 <img src={love1} alt="pca" />
                             </Link>
                             <div className="content">
@@ -48,7 +49,7 @@ const Landing = (props) => (
                           </section>
 
                             <section>
-                                <Link to="/smartify" className="image">
+                                <Link to="/love+" className="image">
                                     <img src={love2} alt="reminder" />
                                 </Link>
                                 <div className="content">
@@ -63,7 +64,7 @@ const Landing = (props) => (
                             </section>
 
                                 <section>
-                                    <Link to="/generic" className="image">
+                                    <Link to="/love+" className="image">
                                         <img src={love3} alt="points" />
                                     </Link>
                                     <div className="content">
@@ -81,13 +82,13 @@ const Landing = (props) => (
 
 
                                 <section>
-                                    <Link to="/generic" className="image">
-                                        <img src={love4} alt="points" />
+                                    <Link to="/love+" className="image">
+                                        <img src={love4} alt="IOT" />
                                     </Link>
                                     <div className="content">
                                         <div className="inner">
                                             <header className="major">
-                                                <h3>User Journey</h3>
+                                                <h3>IOT & Paid Users </h3>
                                             </header>
                                             <p></p>
                                         
