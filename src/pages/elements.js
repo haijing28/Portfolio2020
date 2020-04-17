@@ -19,31 +19,31 @@ const Elements = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h1>Elements</h1>
+                        <h1>Tittle</h1>
                     </header>
 
-                    <h2 id="content">Sample Content</h2>
-                    <p>......</p>
+                    <h2 id="content">User Journey</h2>
+                    <p> Jason is a XXX </p>
                     <div className="grid-wrapper">
                         <div className="col-6">
-                            <h3>Sem turpis amet semper</h3>
-                            <p>......</p>
+                            <h3>Story1</h3>
+                            <p>Vivienne Sent him a XXX </p>
                         </div>
                         <div className="col-6">
-                            <h3>Magna odio tempus commodo</h3>
-                            <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor. Ante commodo blandit adipiscing integer semper orci eget. Faucibus commodo adipiscing mi eu nullam accumsan morbi arcu ornare odio mi adipiscing nascetur lacus ac interdum morbi accumsan vis mi accumsan ac praesent.</p>
+                            <h3>Story2</h3>
+                            <p> Jason XXX </p>
                         </div>
                         <div className="col-4">
-                            <h3>Interdum sapien gravida</h3>
-                            <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+                            <h3>Story3 a</h3>
+                            <p>Parents XXX </p>
                         </div>
                         <div className="col-4">
-                            <h3>Faucibus consequat lorem</h3>
+                            <h3>Story3</h3>
                             <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
                         </div>
                         <div className="col-4">
                             <h3>Accumsan montes viverra</h3>
-                            <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+                            <p>Points XXX </p>
                         </div>
                     </div>
 

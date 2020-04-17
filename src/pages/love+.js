@@ -4,29 +4,24 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
-<<<<<<< HEAD
 import love1 from '../assets/images/love/Love1.png'
 import love2 from '../assets/images/love/Love2.png'
 import love3 from '../assets/images/love/Love3.png'
 import love4 from '../assets/images/love/Love4.png'
-=======
-import love1 from '../assets/images/love/Love1.jpg'
-import love2 from '../assets/images/love/Love2.jpg'
-import love3 from '../assets/images/love/Love3.jpg'
-import love4 from '../assets/images/love/Love3.jpg'
->>>>>>> 6594ec53e34b911496e5750c8754ba2bb46bdbc4
 
-const Landing = (props) => (
+
+const Love = (props) => (
     <Layout>
+
         <Helmet>
             <title> Love+ </title>
             <meta name="description" content="Love+" />
         </Helmet>
 
         <BannerLanding/>
-
         
         <div id="main">
+
 
             <section id="one">
                 <div className="inner">
@@ -38,7 +33,9 @@ const Landing = (props) => (
                 </div>
             </section>
 
+
             <section id="two" className="spotlights">
+
 
                         <section>
                             <Link to="/love+" className="image">
@@ -55,6 +52,8 @@ const Landing = (props) => (
                             </div>
                           </section>
 
+
+
                             <section>
                                 <Link to="/love+" className="image">
                                     <img src={love2} alt="reminder" />
@@ -69,6 +68,7 @@ const Landing = (props) => (
                                     </div>
                                 </div>
                             </section>
+
 
                                 <section>
                                     <Link to="/love+" className="image">
@@ -86,40 +86,111 @@ const Landing = (props) => (
                                     </div>
                                 </section>
 
-
-
+                                
                                 <section>
                                     <Link to="/love+" className="image">
-<<<<<<< HEAD
-                                        <img src={love4} alt="points" />
-=======
                                         <img src={love4} alt="IOT" />
->>>>>>> 6594ec53e34b911496e5750c8754ba2bb46bdbc4
                                     </Link>
                                     <div className="content">
                                         <div className="inner">
                                             <header className="major">
-<<<<<<< HEAD
-                                                <h3> IOT & Paid Users </h3>
-=======
                                                 <h3>IOT & Paid Users </h3>
->>>>>>> 6594ec53e34b911496e5750c8754ba2bb46bdbc4
                                             </header>
-                                            <p> Caring Points system is an incentive method that is designed to grow unpaid users’ retention rate and conversion rate. 
-                                            Love+ users gain caring points by using activity and reminder modules as redeem once they make a purchase or subscription for the selected electrolux hardware service program.  </p>
-                                        
+                                            <p> Love + platform developed three categories of award-winning appliance devices of Electrolux to provide customers with a premium noridc smart home experience.
+                                            Love+ launched Pure A9 Air purifier primarily to specificallly meet the current PM2.5 situation in Mainland China. </p>
                                         </div>
                                     </div>
-                                </section>
+                                </section> 
+
+                                </section> 
 
 
-                             </section>
-      
+
+
+                                  <section>
+
+                                   <div className="inner">
+
+                                        <h2 id="content">User Journey</h2>
+                                        <p> Jason is a XXX </p>
+                                            <div className="grid-wrapper">
+                                            <div className="col-6">
+                                             <h3>Story1</h3>
+                                             <p>Vivienne Sent him a XXX </p></div>
+                                              <div className="col-6">
+                                              <h3>Story2</h3>
+                                              <p> Jason XXX </p>
+                                              </div>
+                                              </div>
+
+                                              </div>
+
+                                 </section> 
+
+
+
+                      <section id="three" className="spotlights">
+
+
+                        <section>
+                            <Link to="/love+" className="image">
+                                <img src={love1} alt="pca" />
+                            </Link>
+                            <div className="content">
+                                <div className="inner">
+                                    <header className="major">
+                                        <h3> User Research </h3>
+                                    </header> 
+                                    <p> Focus Group & 1 on 1 Interview </p>
+                                    <p> Insights 1 </p>
+                                    <p> Insights 2 </p>
+                    
+                                </div>
+                            </div>
+                          </section>
+
+
+
+                            <section>
+                                <Link to="/love+" className="image">
+                                    <img src={love2} alt="reminder" />
+                                </Link>
+                                <div className="content">
+                                    <div className="inner">
+                                        <header className="major">
+                                            <h3>Market Preference Research</h3>
+                                        </header>
+                                        <p> Con-Joint Analysis </p>
+                                    </div>
+                                </div>
+                            </section>
+
+
+                            </section>
+
+
+
+            <section id="one">
+                <div className="inner">
+                    <header className="major">
+                        <h2> Fullstack Experience Designer  </h2>
+                    </header>
+                    <p> Briefly introduce my role & work contents
+                    </p>
+                </div>
+            </section>
+
+
+
+
+
+
+  
               </div>
 
     </Layout>
 )
 
 
-export default Landing
+export default Love
 
