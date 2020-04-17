@@ -33,7 +33,7 @@
 				}
 
 				&:before {
-					background: transparentize(_palette(bg), 0.1);
+					background: transparentize(_palette(bg-alt), 0.1);
 					content: '';
 					display: block;
 					height: 100%;
@@ -85,11 +85,11 @@
 		@include breakpoint(large) {
 			> section {
 				> .image {
-					width: 45%;
+					width: 50%;
 				}
 
 				> .content {
-					width: 55%;
+					width: 50%;
 				}
 			}
 		}
@@ -103,7 +103,7 @@
 				}
 
 				> .content {
-					@include padding(4em, 3em);
+					@include padding(3em, 2.3em);
 					width: 100%;
 				}
 			}
@@ -112,7 +112,7 @@
 		@include breakpoint(small) {
 			> section {
 				> .content {
-					@include padding(3em, 1.5em);
+					@include padding(3em, 1.7em);
 				}
 			}
 		}
