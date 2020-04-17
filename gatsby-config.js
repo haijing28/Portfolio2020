@@ -1,12 +1,7 @@
 module.exports = {
   siteMetadata: {
-<<<<<<< HEAD
     title: "DesignLens",
     author: "Haijing Liu",
-=======
-    title: "Designlens",
-    author: "Haijing Oceanstill",
->>>>>>> 343c1ca407e73e5560435b649a8b6147c49fb475
     description: "Haijing Portfolio 2020"
   },
   plugins: [
