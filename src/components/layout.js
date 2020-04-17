@@ -1,6 +1,6 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import '../assets/scss/main.scss'
+import PropTypes from 'prop-types'
 import Header from './Header'
 import Menu from './Menu'
 import Footer from './Footer'
@@ -41,7 +41,6 @@ class Layout extends React.Component {
                 <div id="wrapper">
                     <Header onToggleMenu={this.handleToggleMenu} />
                     {children}
-                   
                     <Footer/>
                 </div>
                 <Menu onToggleMenu={this.handleToggleMenu} />

@@ -10,12 +10,16 @@ import love3 from '../assets/images/love/Love3.png'
 import love4 from '../assets/images/love/Love4.png'
 
 
+<<<<<<< HEAD
 const Love = (props) => (
+=======
+const Landing = (props) => (
+>>>>>>> 343c1ca407e73e5560435b649a8b6147c49fb475
     <Layout>
 
         <Helmet>
             <title> Love+ </title>
-            <meta name="description" content="Love+" />
+            <meta name="description" content="Love+"/>
         </Helmet>
 
         <BannerLanding/>
@@ -39,7 +43,7 @@ const Love = (props) => (
 
                         <section>
                             <Link to="/love+" className="image">
-                                <img src={love1} alt="pca" />
+                                <img src={love1} alt="pca"/>
                             </Link>
                             <div className="content">
                                 <div className="inner">
@@ -56,7 +60,7 @@ const Love = (props) => (
 
                             <section>
                                 <Link to="/love+" className="image">
-                                    <img src={love2} alt="reminder" />
+                                    <img src={love2} alt="reminder"/>
                                 </Link>
                                 <div className="content">
                                     <div className="inner">
@@ -72,7 +76,7 @@ const Love = (props) => (
 
                                 <section>
                                     <Link to="/love+" className="image">
-                                        <img src={love3} alt="points" />
+                                        <img src={love3} alt="points"/>
                                     </Link>
                                     <div className="content">
                                         <div className="inner">
@@ -89,12 +93,20 @@ const Love = (props) => (
                                 
                                 <section>
                                     <Link to="/love+" className="image">
+<<<<<<< HEAD
                                         <img src={love4} alt="IOT" />
+=======
+                                        <img src={love4} alt="IOT"/>
+>>>>>>> 343c1ca407e73e5560435b649a8b6147c49fb475
                                     </Link>
                                     <div className="content">
                                         <div className="inner">
                                             <header className="major">
+<<<<<<< HEAD
                                                 <h3>IOT & Paid Users </h3>
+=======
+                                              <h3>IOT & Paid Users </h3>
+>>>>>>> 343c1ca407e73e5560435b649a8b6147c49fb475
                                             </header>
                                             <p> Love + platform developed three categories of award-winning appliance devices of Electrolux to provide customers with a premium noridc smart home experience.
                                             Love+ launched Pure A9 Air purifier primarily to specificallly meet the current PM2.5 situation in Mainland China. </p>
