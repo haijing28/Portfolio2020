@@ -39,6 +39,7 @@ const Love = (props) => (
 
 
                         <section>
+                            
                             <Link to="/love+" className="image">
                                 <img src={love1} alt="pca"/>
                             </Link>
