@@ -14,6 +14,7 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
+import Footer from '../components/Footer'
 
 import love from '../assets/images/love.png'
 import smty from '../assets/images/smartify.png'
@@ -65,7 +66,7 @@ class HomeIndex extends React.Component {
                                         <h3>Smartii</h3>
                                         <p>Midea Innovation for Millennial Life Style</p>
                                     </header>
-                                    <Link to="/elements" className="link primary"></Link>
+                                    <Link to="/smartii" className="link primary"></Link>
                                 </article>
 
 
