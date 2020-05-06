@@ -9,8 +9,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'DesignLens', //gatsby-starter-default
+        short_name: 'designlens', //starter
         start_url: '/',
         background_color: '#FAF9FD',
         theme_color: '#ED207C',
