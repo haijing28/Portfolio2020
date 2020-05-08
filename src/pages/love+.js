@@ -20,7 +20,7 @@ const Love = (props) => (
         </Helmet>
 
         <BannerLanding/>
-        
+
         <div id="main">
 
 
@@ -39,17 +39,17 @@ const Love = (props) => (
 
 
                         <section>
-                            
-                            <Link to="/love+" className="image">
+
+                            <Link to="/love+" className= "image">
                                 <img src={love1} alt="pca"/>
                             </Link>
                             <div className="content">
                                 <div className="inner">
                                     <header className="major">
                                         <h3> Parents-Children Activity </h3>
-                                    </header> 
+                                    </header>
                                     <p> Parents - Children activity is one product module of the mental care section, it provides content ranging from generation-gap topics, wellbeing tips, titorial and quiz with gamified playful system so that children can invite their parents to play & interact. </p>
-                    
+
                                 </div>
                             </div>
                           </section>
@@ -81,14 +81,14 @@ const Love = (props) => (
                                             <header className="major">
                                                 <h3>Caring Points System</h3>
                                             </header>
-                                            <p> Caring Points system is an incentive method that is designed to grow unpaid users’ retention rate and conversion rate. 
+                                            <p> Caring Points system is an incentive method that is designed to grow unpaid users’ retention rate and conversion rate.
                                             Love+ users gain caring points by using activity and reminder modules as redeem once they make a purchase or subscription for the selected electrolux hardware service program.  </p>
-                                        
+
                                         </div>
                                     </div>
                                 </section>
 
-                                
+
                                 <section>
                                     <Link to="/love+" className="image">
 
@@ -106,9 +106,9 @@ const Love = (props) => (
                                             Love+ launched Pure A9 Air purifier primarily to specificallly meet the current PM2.5 situation in Mainland China. </p>
                                         </div>
                                     </div>
-                                </section> 
+                                </section>
 
-                                </section> 
+                                </section>
 
 
 
@@ -131,7 +131,7 @@ const Love = (props) => (
 
                                               </div>
 
-                                 </section> 
+                                 </section>
 
 
 
@@ -146,11 +146,11 @@ const Love = (props) => (
                                 <div className="inner">
                                     <header className="major">
                                         <h3> User Research </h3>
-                                    </header> 
+                                    </header>
                                     <p> Focus Group & 1 on 1 Interview </p>
                                     <p> Insights 1 </p>
                                     <p> Insights 2 </p>
-                    
+
                                 </div>
                             </div>
                           </section>
@@ -191,7 +191,7 @@ const Love = (props) => (
 
 
 
-  
+
               </div>
 
     </Layout>
@@ -199,4 +199,3 @@ const Love = (props) => (
 
 
 export default Love
-

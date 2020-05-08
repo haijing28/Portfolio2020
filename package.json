@@ -1,8 +1,8 @@
 {
-  "name": "Designpholio",
+  "name": "designlens",
   "description": "Haijing's Work 2020",
   "version": "1.0.0",
-  "author": "Haijing Liu",
+  "author": "Haijing Oceanstill",
   "dependencies": {
     "acorn": "^7.1.1",
     "bootstrap": "^4.4.1",
@@ -28,13 +28,17 @@
   "keywords": [
     "Design",
     "User Experience",
+    "Design Lens",
     "Parsons",
     "Interaction Designer",
+    "Design & Technology",
     "Lean UX",
     "Strategist",
     "Design Strategy",
+    "Product Innovation",
+    "Experience Designer",
+    "Service Designer",
     "Product Designer",
-    "Creative Technologist",
     "Innovation Insights",
     "Innovation Engineering",
     "Entreprenuer"
@@ -51,6 +55,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/haijing28/Portfolio2020"
-  }
+    "url": "git+https://github.com/haijing28/Portfolio2020.git"
+  },
+  "bugs": {
+    "url": "https://github.com/haijing28/Portfolio2020/issues"
+  },
+  "homepage": "https://github.com/haijing28/Portfolio2020#readme",
+  "main": "gatsby-browser.js"
 }
