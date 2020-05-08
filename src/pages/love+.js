@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
+import { Glide } from 'react-glide';
+import 'react-glide/lib/reactGlide.css'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
@@ -40,8 +42,16 @@ const Love = (props) => (
 
                         <section>
 
+
+
+
+
                             <Link to="/love+" className= "image">
+                            <Glide height={800} width={800}>
                                 <img src={love1} alt="pca"/>
+                                <img src={love2} alt="pca"/>
+                                <img src={love3} alt="pca"/>
+                                </Glide>
                             </Link>
                             <div className="content">
                                 <div className="inner">
@@ -54,12 +64,14 @@ const Love = (props) => (
                             </div>
                           </section>
 
-
-
                             <section>
-                                <Link to="/love+" className="image">
+                            
+                                    <Glide height={500} width={500}>
                                     <img src={love2} alt="reminder"/>
-                                </Link>
+                                    <img src={love1} alt="reminder"/>
+                                    <img src={love3} alt="reminder"/>
+                                      </Glide>
+                       
                                 <div className="content">
                                     <div className="inner">
                                         <header className="major">
