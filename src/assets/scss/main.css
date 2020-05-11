@@ -661,59 +661,58 @@ a.icon.alt:active:before {
 }
 
 /* Image */
-.image {
-  border: 0;
-  padding: 1em;
+.image-container {
+  padding: 1.3em;
   display: inline-block;
   position: relative;
 }
 
-.image img {
+.image-container img {
   display: block;
 }
 
-.image.left, .image.right {
+.image-container.left, .image-container.right {
   max-width: 100%;
 }
 
-.image.left img, .image.right img {
-  width: 100%;
+.image-container.left img, .image-container.right img {
+  width: 50%;
 }
 
-.image.left {
+.image-container.left {
   float: left;
   margin: 0 1.5em 1.25em 0;
   top: 0.25em;
 }
 
-.image.right {
+.image-container.right {
   float: right;
   margin: 0 0 1.25em 1.5em;
   top: 0.25em;
 }
 
-.image.fit {
+.image-container.fit {
   display: block;
   margin: 0 0 1em 0;
   width: 100%;
 }
 
-.image.fit img {
+.image-container.fit img {
   width: 100%;
 }
 
-.image.main {
+.image-container.main {
   display: block;
   margin: 1.25em 0;
   width: 100%;
 }
 
-.image.main img {
+.image-container.main img {
   width: 100%;
 }
 
 @media screen and (max-width: 736px) {
-  .image.main {
+  .image-container.main {
     margin: 0.75em 0;
   }
 }
@@ -1408,7 +1407,7 @@ button:disabled,
 
 /* Spotlights */
 .spotlights {
-  border-top: 1em !important;
+  border-top: 1.3em !important;
 }
 
 .spotlights + * {
@@ -1429,7 +1428,7 @@ button:disabled,
   background-color: #696e72;
 }
 
-.spotlights > section > .image {
+.spotlights > section > .image-container {
   background-position: center center;
   background-size: cover;
   border-radius: 5px;
@@ -1438,13 +1437,14 @@ button:disabled,
   width: 80%;
 }
 
-.spotlights > section > .image img {
-  border-radius: 0;
+.spotlights > section > .image-container img {
+  padding: 1.2em;
+  border-radius: 6px 2px 6px 2px;
   display: block;
   width: 100%;
 }
 
-.spotlights > section > .image:before {
+.spotlights > section > .image-container:before {
   background: rgba(99, 105, 110, 0.9);
   content: '';
   display: block;
@@ -1477,7 +1477,7 @@ button:disabled,
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2em 3em 1em 3em ;
+  padding: 2.3em 3em 1.3em 3em ;
   width: 50%;
 }
 
@@ -1506,7 +1506,7 @@ button:disabled,
 
 @media screen and (max-width: 1680px) {
   .spotlights > section > .image {
-    width: 100%;
+    width: 80%;
   }
   .spotlights > section > .content {
     width: 50%;

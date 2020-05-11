@@ -41,20 +41,12 @@ const Love = (props) => (
 
             <section id="two" className="spotlights">
 
-
-                        <section>
-
-
-
-
-
-                            <div className= "image">
-                            <Glide>
+                        <section >
+                   
+                            <div className="image-container">
                                 <img src={love1} alt="pca"/>
-                                <img src={love2} alt="pca"/>
-                                <img src={love3} alt="pca"/>
-                                </Glide>
                             </div>
+                 
                             <div className="content">
                                 <div className="inner">
                                     <header className="major">
@@ -67,13 +59,11 @@ const Love = (props) => (
                           </section>
 
                             <section>
-                            <div className= "image">
-                                    <Glide>
+                            <div className= "image-container">
+                                    
                                     <img src={love2} alt="reminder"/>
-                                    <img src={love1} alt="reminder"/>
-                                    <img src={love3} alt="reminder"/>
-                                      </Glide></div>
-                       
+                          
+                                      </div>
                                 <div className="content">
                                     <div className="inner">
                                         <header className="major">
@@ -87,9 +77,9 @@ const Love = (props) => (
 
 
                                 <section>
-                                    <div className="image">
-                                    <Glide ><img src={love3} alt="points"/><img src={love2} alt="points"/><img src={love1} alt="points"/>
-                                    </Glide>
+                             <div className="image-container">
+                                 <img src={love3} alt="points"/>
+                                    
                                     </div>
                                     <div className="content">
                                         <div className="inner">
@@ -105,19 +95,17 @@ const Love = (props) => (
 
 
                                 <section>
-                                    <div className="image">
-                                    <Glide>
+                          
+                                    <div className="image-container">
                                     <img src={love4} alt="IOT"/>
-                                    <img src={love2} alt="pca"/>
-                                    <img src={love3} alt="pca"/>
-                                    </Glide>
+                           
                                     </div>
+                        
+
                                     <div className="content">
                                         <div className="inner">
                                             <header className="major">
-
                                                 <h3>IOT & Paid Users </h3>
-
                                             </header>
                                             <p> Love + platform developed three categories of award-winning appliance devices of Electrolux to provide customers with a premium noridc smart home experience.
                                             Love+ launched Pure A9 Air purifier primarily to specificallly meet the current PM2.5 situation in Mainland China. </p>
@@ -156,11 +144,11 @@ const Love = (props) => (
 
 
                         <section>
-                            <div className="image"> 
-                             <Glide>
-                                <img src={love1} alt="pca" />
+                            <div className="image-container"> 
+           
+        
                                <img src={love4} alt="IOT" /> 
-                               </Glide>
+                    
                             </div>
                             <div className="content">
                                 <div className="inner">
@@ -178,13 +166,10 @@ const Love = (props) => (
 
 
                             <section>
-                                 <div className="image">
-                                <Glide>
+                                 <div className="image-container">
+                   
                                     <img src={love2} alt="reminder" />
-                                    <img src={love2} alt="reminder" />
-                                    <img src={love2} alt="reminder" />
-                                    <img src={love2} alt="reminder" />
-                                </Glide>
+             
                                </div>
                                 <div className="content">
                                     <div className="inner">

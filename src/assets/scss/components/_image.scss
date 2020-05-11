@@ -6,9 +6,8 @@
 
 /* Image */
 
-	.image {
-		border: 0;
-		padding: 1em;
+	.image-container {
+		padding: 1.3em;
 		display: inline-block;
 		position: relative;
 
@@ -21,7 +20,7 @@
 			max-width: 100%;
 
 			img {
-				width: 100%;
+				width: 50%;
 			}
 		}
 
