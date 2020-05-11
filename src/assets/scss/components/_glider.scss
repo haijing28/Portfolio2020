@@ -18,9 +18,11 @@ $img-width:(
     @return map-get($img-width,$img-widths)
 }
 
-glide--container{
-    height:height1(height1);
-    width:width(width1);
+.glide--container{
+    height:height1(height2);
+    width:width(width2);
+    padding: 2em 3em 3em 2em;
+    margin: 1em;
     
 }
 

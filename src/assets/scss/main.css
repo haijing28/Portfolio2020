@@ -910,9 +910,11 @@ dl dd {
   margin-left: 1em;
 }
 
-glide--container {
-  height: height1(height1);
-  width: 100%;
+.glide--container {
+  height: height1(height2);
+  width: 80%;
+  padding: 2em 3em 3em 2em;
+  margin: 1em;
 }
 
 /* Table */
@@ -1406,7 +1408,7 @@ button:disabled,
 
 /* Spotlights */
 .spotlights {
-  border-top: 0 !important;
+  border-top: 1em !important;
 }
 
 .spotlights + * {
@@ -1430,14 +1432,14 @@ button:disabled,
 .spotlights > section > .image {
   background-position: center center;
   background-size: cover;
-  border-radius: 0;
+  border-radius: 5px;
   display: inline-block;
   position: relative;
   width: 80%;
 }
 
 .spotlights > section > .image img {
-  border-radius: 5;
+  border-radius: 0;
   display: block;
   width: 100%;
 }

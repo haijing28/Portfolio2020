@@ -7,7 +7,7 @@
 /* Spotlights */
 
 	.spotlights {
-		border-top: 0 !important;
+		border-top: 1em !important;
 
 		& + * {
 			border-top: 0 !important;
@@ -21,13 +21,13 @@
 			> .image {
 				background-position: center center;
 				background-size: cover;
-				border-radius: 0;
+				border-radius: 5px;
 				display: inline-block;
 				position: relative;
 				width: 80%;
 
 				img {
-					border-radius: 5;
+					border-radius: 0;
 					display: block;
 					width: 100%;
 				}
