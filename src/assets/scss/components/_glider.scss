@@ -1,3 +1,30 @@
+$img-height:(
+    height1:100%,
+    height2:80%
+);
+
+$img-width:(
+    width1:100%,
+    width2:80%
+);
+
+
+@function height($img-heights){
+    @return map-get($img-height,$img-heights)
+}
+
+
+@function width($img-widths){
+    @return map-get($img-width,$img-widths)
+}
+
+glide--container{
+    height:height1(height1);
+    width:width(width1);
+    
+}
+
+
 
 // interface GlideProps {
 //     autoPlay: boolean;

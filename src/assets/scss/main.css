@@ -910,6 +910,11 @@ dl dd {
   margin-left: 1em;
 }
 
+glide--container {
+  height: height1(height1);
+  width: 100%;
+}
+
 /* Table */
 .table-wrapper {
   -webkit-overflow-scrolling: touch;
@@ -1426,13 +1431,13 @@ button:disabled,
   background-position: center center;
   background-size: cover;
   border-radius: 0;
-  display: block;
+  display: inline-block;
   position: relative;
-  width: 50%;
+  width: 80%;
 }
 
 .spotlights > section > .image img {
-  border-radius: 0;
+  border-radius: 5;
   display: block;
   width: 100%;
 }

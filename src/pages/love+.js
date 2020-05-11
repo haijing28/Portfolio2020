@@ -49,7 +49,7 @@ const Love = (props) => (
 
 
                             <div className= "image">
-                            <Glide height={500} width={500}>
+                            <Glide>
                                 <img src={love1} alt="pca"/>
                                 <img src={love2} alt="pca"/>
                                 <img src={love3} alt="pca"/>
@@ -68,7 +68,7 @@ const Love = (props) => (
 
                             <section>
                             <div className= "image">
-                                    <Glide height={500} width={500}>
+                                    <Glide>
                                     <img src={love2} alt="reminder"/>
                                     <img src={love1} alt="reminder"/>
                                     <img src={love3} alt="reminder"/>
@@ -88,7 +88,7 @@ const Love = (props) => (
 
                                 <section>
                                     <div className="image">
-                                    <Glide height={500} width={500}><img src={love3} alt="points"/>
+                                    <Glide ><img src={love3} alt="points"/><img src={love2} alt="points"/><img src={love1} alt="points"/>
                                     </Glide>
                                     </div>
                                     <div className="content">
@@ -106,7 +106,7 @@ const Love = (props) => (
 
                                 <section>
                                     <div className="image">
-                                    <Glide height={500} width={500}>
+                                    <Glide>
                                     <img src={love4} alt="IOT"/>
                                     <img src={love2} alt="pca"/>
                                     <img src={love3} alt="pca"/>
@@ -157,7 +157,7 @@ const Love = (props) => (
 
                         <section>
                             <div className="image"> 
-                             <Glide height={500} width={500}>
+                             <Glide>
                                 <img src={love1} alt="pca" />
                                <img src={love4} alt="IOT" /> 
                                </Glide>
@@ -179,7 +179,7 @@ const Love = (props) => (
 
                             <section>
                                  <div className="image">
-                                <Glide height={500} width={500}>
+                                <Glide>
                                     <img src={love2} alt="reminder" />
                                     <img src={love2} alt="reminder" />
                                     <img src={love2} alt="reminder" />

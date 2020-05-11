@@ -22,12 +22,12 @@
 				background-position: center center;
 				background-size: cover;
 				border-radius: 0;
-				display: block;
+				display: inline-block;
 				position: relative;
-				width: 50%;
+				width: 80%;
 
 				img {
-					border-radius: 0;
+					border-radius: 5;
 					display: block;
 					width: 100%;
 				}
