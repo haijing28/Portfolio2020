@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 
 import pic11 from '../assets/images/pic11.jpg'
 
-const Generic = (props) => (
+const Smartii = (props) => (
     <Layout>
         <Helmet>
             <title> Smartii </title>
@@ -29,4 +29,4 @@ const Generic = (props) => (
     </Layout>
 )
 
-export default Generic
+export default Smartii

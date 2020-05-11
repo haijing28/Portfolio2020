@@ -1,8 +1,12 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
+import { Glide } from 'react-glide';
+import 'react-glide/lib/reactGlide.css'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
+
+
 
 import love1 from '../assets/images/love/Love1.png'
 import love2 from '../assets/images/love/Love2.png'
@@ -20,7 +24,7 @@ const Love = (props) => (
         </Helmet>
 
         <BannerLanding/>
-        
+
         <div id="main">
 
 
@@ -37,28 +41,29 @@ const Love = (props) => (
 
             <section id="two" className="spotlights">
 
-
-                        <section>
-                            <Link to="/love+" className="image">
+                        <section >
+                   
+                            <div className="image-container">
                                 <img src={love1} alt="pca"/>
-                            </Link>
+                            </div>
+                 
                             <div className="content">
                                 <div className="inner">
                                     <header className="major">
                                         <h3> Parents-Children Activity </h3>
-                                    </header> 
+                                    </header>
                                     <p> Parents - Children activity is one product module of the mental care section, it provides content ranging from generation-gap topics, wellbeing tips, titorial and quiz with gamified playful system so that children can invite their parents to play & interact. </p>
-                    
+
                                 </div>
                             </div>
                           </section>
 
-
-
                             <section>
-                                <Link to="/love+" className="image">
+                            <div className= "image-container">
+                                    
                                     <img src={love2} alt="reminder"/>
-                                </Link>
+                          
+                                      </div>
                                 <div className="content">
                                     <div className="inner">
                                         <header className="major">
@@ -72,42 +77,43 @@ const Love = (props) => (
 
 
                                 <section>
-                                    <Link to="/love+" className="image">
-                                        <img src={love3} alt="points"/>
-                                    </Link>
+                             <div className="image-container">
+                                 <img src={love3} alt="points"/>
+                                    
+                                    </div>
                                     <div className="content">
                                         <div className="inner">
                                             <header className="major">
                                                 <h3>Caring Points System</h3>
                                             </header>
-                                            <p> Caring Points system is an incentive method that is designed to grow unpaid users’ retention rate and conversion rate. 
+                                            <p> Caring Points system is an incentive method that is designed to grow unpaid users’ retention rate and conversion rate.
                                             Love+ users gain caring points by using activity and reminder modules as redeem once they make a purchase or subscription for the selected electrolux hardware service program.  </p>
-                                        
+
                                         </div>
                                     </div>
                                 </section>
 
-                                
+
                                 <section>
-                                    <Link to="/love+" className="image">
+                          
+                                    <div className="image-container">
+                                    <img src={love4} alt="IOT"/>
+                           
+                                    </div>
+                        
 
-                                        <img src={love4} alt="IOT" />
-
-                                    </Link>
                                     <div className="content">
                                         <div className="inner">
                                             <header className="major">
-
                                                 <h3>IOT & Paid Users </h3>
-
                                             </header>
                                             <p> Love + platform developed three categories of award-winning appliance devices of Electrolux to provide customers with a premium noridc smart home experience.
                                             Love+ launched Pure A9 Air purifier primarily to specificallly meet the current PM2.5 situation in Mainland China. </p>
                                         </div>
                                     </div>
-                                </section> 
+                                </section>
 
-                                </section> 
+                                </section>
 
 
 
@@ -130,7 +136,7 @@ const Love = (props) => (
 
                                               </div>
 
-                                 </section> 
+                                 </section>
 
 
 
@@ -138,18 +144,21 @@ const Love = (props) => (
 
 
                         <section>
-                            <Link to="/love+" className="image">
-                                <img src={love1} alt="pca" />
-                            </Link>
+                            <div className="image-container"> 
+           
+        
+                               <img src={love4} alt="IOT" /> 
+                    
+                            </div>
                             <div className="content">
                                 <div className="inner">
                                     <header className="major">
                                         <h3> User Research </h3>
-                                    </header> 
+                                    </header>
                                     <p> Focus Group & 1 on 1 Interview </p>
                                     <p> Insights 1 </p>
                                     <p> Insights 2 </p>
-                    
+
                                 </div>
                             </div>
                           </section>
@@ -157,9 +166,11 @@ const Love = (props) => (
 
 
                             <section>
-                                <Link to="/love+" className="image">
+                                 <div className="image-container">
+                   
                                     <img src={love2} alt="reminder" />
-                                </Link>
+             
+                               </div>
                                 <div className="content">
                                     <div className="inner">
                                         <header className="major">
@@ -178,19 +189,19 @@ const Love = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h2> Fullstack Experience Designer  </h2>
+                        <h2> Fullstack & to End Experience Designer </h2>
                     </header>
-                    <p> Briefly introduce my role & work contents
-                    </p>
+                    <hr></hr>
+                    <p> • Serving the team as a full-stack to end user experience designer, drive to end design solutions in an agile development environment constantly.</p>
+                    <p> • Mainly contributed in interaction & experience & pixel perfect user interface design of product modules such as Family activities, Points system, Personal Reminders, User Profile, IOT, Group Buying, etc.</p>
+                    <p> • Conduct user research, +insights, arranging internal & external user research / branding marketing related workshops, mainly contributed in 1 focus group, 1 in-depth interview, 1 trademark workshop (collaborated with Global IP department ) and 1 conjoint analysis.</p> 
+                    <p> • Helped product with structure-wise iteration as well as foresight development of love+'s future form ( insights of content development, new product opportunities, market preference, etc. )</p>
+                    <p> • Work closely with cross functional teams（ growth & engineering & operation） exploring new possibilities of wellness solution, iot smart home scenarios, in case of crystallizing the new business model for our venture.</p>
                 </div>
             </section>
 
 
 
-
-
-
-  
               </div>
 
     </Layout>
@@ -198,4 +209,3 @@ const Love = (props) => (
 
 
 export default Love
-

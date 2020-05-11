@@ -1,32 +1,50 @@
 {
-  "name": "Designpholio",
+  "name": "designlens",
   "description": "Haijing's Work 2020",
   "version": "1.0.0",
-  "author": "Haijing Liu",
+  "author": "Haijing Oceanstill",
   "dependencies": {
+    "acorn": "^7.1.1",
+    "bootstrap": "^4.4.1",
     "core-js": "^3.6.5",
     "darwin": "0.0.5",
     "gatsby": "^2.15.14",
+    "gatsby-image": "^2.3.4",
     "gatsby-plugin-manifest": "^2.2.16",
     "gatsby-plugin-offline": "^3.0.6",
     "gatsby-plugin-react-helmet": "^3.1.7",
     "gatsby-plugin-sass": "^2.2.1",
-    "node-sass": "^4.13.1",
+    "gatsby-plugin-sharp": "^2.5.6",
+    "gatsby-source-filesystem": "^2.2.4",
+    "gatsby-transformer-sharp": "^2.4.6",
+    "node-sass": "^4.14.1",
+    "popper.js": "^1.16.1",
     "react": "^16.9.0",
+    "react-bootstrap": "^1.0.1",
     "react-dom": "^16.9.0",
+<<<<<<< HEAD
     "react-helmet": "^5.2.1",
     "redux": "^4.0.5"
+=======
+    "react-glide": "^3.2.0",
+    "react-helmet": "^5.2.1",
+    "typescript": "^3.8.3"
+>>>>>>> 55c908956096549c1c795c14dce07a093d9be69e
   },
   "keywords": [
     "Design",
     "User Experience",
+    "Design Lens",
     "Parsons",
     "Interaction Designer",
+    "Design & Technology",
     "Lean UX",
     "Strategist",
     "Design Strategy",
+    "Product Innovation",
+    "Experience Designer",
+    "Service Designer",
     "Product Designer",
-    "Creative Technologist",
     "Innovation Insights",
     "Innovation Engineering",
     "Entreprenuer"
@@ -43,6 +61,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/haijing28/Portfolio2020"
-  }
+    "url": "git+https://github.com/haijing28/Portfolio2020.git"
+  },
+  "bugs": {
+    "url": "https://github.com/haijing28/Portfolio2020/issues"
+  },
+  "homepage": "https://github.com/haijing28/Portfolio2020#readme",
+  "main": "gatsby-browser.js"
 }

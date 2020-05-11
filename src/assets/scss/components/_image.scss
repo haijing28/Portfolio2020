@@ -6,8 +6,8 @@
 
 /* Image */
 
-	.image {
-		border: 0;
+	.image-container {
+		padding: 1.3em;
 		display: inline-block;
 		position: relative;
 
@@ -17,10 +17,10 @@
 
 		&.left,
 		&.right {
-			max-width: 70%;
+			max-width: 100%;
 
 			img {
-				width: 100%;
+				width: 50%;
 			}
 		}
 
@@ -59,4 +59,7 @@
 				margin: (_size(element-margin) * 0.75) 0;
 			}
 		}
+
+
+
 	}

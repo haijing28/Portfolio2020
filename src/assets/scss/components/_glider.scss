@@ -1,0 +1,72 @@
+$img-height:(
+    height1:100%,
+    height2:80%
+);
+
+$img-width:(
+    width1:100%,
+    width2:80%
+);
+
+
+@function height($img-heights){
+    @return map-get($img-height,$img-heights)
+}
+
+
+@function width($img-widths){
+    @return map-get($img-width,$img-widths)
+}
+
+.glide--container{
+    height:height1(height2);
+    width:width(width2);
+    padding: 2em 3em 3em 2em;
+    margin: 1em;
+    
+}
+
+
+
+// interface GlideProps {
+//     autoPlay: boolean;
+//     autoPlaySpeed: auto;
+//     dots: boolean;
+//     height: auto;
+//     width: auto;
+//     onSlideChange: () => void;
+//   }
+
+
+
+// figure {
+//     background:#fff;
+//     display:block;
+//     margin:_size(element-margin);
+//     padding:_size(element-margin);
+//     width:100%;
+//     height:100%;
+   
+   
+   
+//            blockquote{
+//            padding:_size(element-margin);
+//            text-align:center;
+//            display:block;
+//            position: relative;
+//            color: #373737;
+//            font-size: 23pt;
+//            text-transform:uppercase;
+//            font-weight: 600;
+//            text-indent: 2em;
+//            }
+   
+//            figcaption{
+//                color: #505050;
+//                text-align:center;
+//                margin-bottom:1em;
+//            } 
+   
+   
+//    }
+   
