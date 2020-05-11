@@ -47,7 +47,7 @@ const Love = (props) => (
 
 
                             <Link to="/love+" className= "image">
-                            <Glide height={800} width={800}>
+                            <Glide height={500} width={500}>
                                 <img src={love1} alt="pca"/>
                                 <img src={love2} alt="pca"/>
                                 <img src={love3} alt="pca"/>
@@ -65,12 +65,12 @@ const Love = (props) => (
                           </section>
 
                             <section>
-                            
+                            <Link to="/love+" className= "image">
                                     <Glide height={500} width={500}>
                                     <img src={love2} alt="reminder"/>
                                     <img src={love1} alt="reminder"/>
                                     <img src={love3} alt="reminder"/>
-                                      </Glide>
+                                      </Glide></Link>
                        
                                 <div className="content">
                                     <div className="inner">
@@ -85,9 +85,10 @@ const Love = (props) => (
 
 
                                 <section>
-                                    <Link to="/love+" className="image">
-                                        <img src={love3} alt="points"/>
-                                    </Link>
+                                    <div className="image">
+                                    <Glide height={500} width={500}><img src={love3} alt="points"/>
+                                    </Glide>
+                                    </div>
                                     <div className="content">
                                         <div className="inner">
                                             <header className="major">
@@ -103,8 +104,11 @@ const Love = (props) => (
 
                                 <section>
                                     <Link to="/love+" className="image">
-
-                                        <img src={love4} alt="IOT" />
+                                    <Glide height={500} width={500}>
+                                    <img src={love4} alt="IOT"/>
+                                    <img src={love2} alt="pca"/>
+                                    <img src={love3} alt="pca"/>
+                                    </Glide>
 
                                     </Link>
                                     <div className="content">
@@ -151,9 +155,12 @@ const Love = (props) => (
 
 
                         <section>
-                            <Link to="/love+" className="image">
+                            <div className="image"> 
+                             <Glide height={500} width={500}>
                                 <img src={love1} alt="pca" />
-                            </Link>
+                               <img src={love4} alt="IOT" /> 
+                               </Glide>
+                            </div>
                             <div className="content">
                                 <div className="inner">
                                     <header className="major">
@@ -170,9 +177,14 @@ const Love = (props) => (
 
 
                             <section>
-                                <Link to="/love+" className="image">
+                                 <div className="image">
+                                <Glide height={500} width={500}>
                                     <img src={love2} alt="reminder" />
-                                </Link>
+                                    <img src={love2} alt="reminder" />
+                                    <img src={love2} alt="reminder" />
+                                    <img src={love2} alt="reminder" />
+                                    </Glide>
+                               </div>
                                 <div className="content">
                                     <div className="inner">
                                         <header className="major">
