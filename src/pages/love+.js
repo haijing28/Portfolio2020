@@ -6,6 +6,8 @@ import 'react-glide/lib/reactGlide.css'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
+
+
 import love1 from '../assets/images/love/Love1.png'
 import love2 from '../assets/images/love/Love2.png'
 import love3 from '../assets/images/love/Love3.png'
@@ -183,7 +185,7 @@ const Love = (props) => (
                                     <img src={love2} alt="reminder" />
                                     <img src={love2} alt="reminder" />
                                     <img src={love2} alt="reminder" />
-                                    </Glide>
+                                </Glide>
                                </div>
                                 <div className="content">
                                     <div className="inner">
