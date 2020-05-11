@@ -48,13 +48,13 @@ const Love = (props) => (
 
 
 
-                            <Link to="/love+" className= "image">
+                            <div className= "image">
                             <Glide height={500} width={500}>
                                 <img src={love1} alt="pca"/>
                                 <img src={love2} alt="pca"/>
                                 <img src={love3} alt="pca"/>
                                 </Glide>
-                            </Link>
+                            </div>
                             <div className="content">
                                 <div className="inner">
                                     <header className="major">
@@ -67,12 +67,12 @@ const Love = (props) => (
                           </section>
 
                             <section>
-                            <Link to="/love+" className= "image">
+                            <div className= "image">
                                     <Glide height={500} width={500}>
                                     <img src={love2} alt="reminder"/>
                                     <img src={love1} alt="reminder"/>
                                     <img src={love3} alt="reminder"/>
-                                      </Glide></Link>
+                                      </Glide></div>
                        
                                 <div className="content">
                                     <div className="inner">
@@ -105,14 +105,13 @@ const Love = (props) => (
 
 
                                 <section>
-                                    <Link to="/love+" className="image">
+                                    <div className="image">
                                     <Glide height={500} width={500}>
                                     <img src={love4} alt="IOT"/>
                                     <img src={love2} alt="pca"/>
                                     <img src={love3} alt="pca"/>
                                     </Glide>
-
-                                    </Link>
+                                    </div>
                                     <div className="content">
                                         <div className="inner">
                                             <header className="major">
@@ -205,16 +204,16 @@ const Love = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h2> Fullstack Experience Designer  </h2>
+                        <h2> Fullstack & to End Experience Designer </h2>
                     </header>
-                    <p> Briefly introduce my role & work contents
-                    </p>
+                    <hr></hr>
+                    <p> • Serving the team as a full-stack to end user experience designer, drive to end design solutions in an agile development environment constantly.</p>
+                    <p> • Mainly contributed in interaction & experience & pixel perfect user interface design of product modules such as Family activities, Points system, Personal Reminders, User Profile, IOT, Group Buying, etc.</p>
+                    <p> • Conduct user research, +insights, arranging internal & external user research / branding marketing related workshops, mainly contributed in 1 focus group, 1 in-depth interview, 1 trademark workshop (collaborated with Global IP department ) and 1 conjoint analysis.</p> 
+                    <p> • Helped product with structure-wise iteration as well as foresight development of love+'s future form ( insights of content development, new product opportunities, market preference, etc. )</p>
+                    <p> • Work closely with cross functional teams（ growth & engineering & operation） exploring new possibilities of wellness solution, iot smart home scenarios, in case of crystallizing the new business model for our venture.</p>
                 </div>
             </section>
-
-
-
-
 
 
 

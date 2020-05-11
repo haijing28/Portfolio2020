@@ -8,6 +8,7 @@
 
 	.image {
 		border: 0;
+		padding: 1em;
 		display: inline-block;
 		position: relative;
 
@@ -17,7 +18,7 @@
 
 		&.left,
 		&.right {
-			max-width: 70%;
+			max-width: 100%;
 
 			img {
 				width: 100%;

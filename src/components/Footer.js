@@ -1,5 +1,7 @@
 import React from 'react'
 
+import gatsby from '../assets/images/gatsby.png'
+
 const Footer = (props) => (
     <footer id="footer">
         <div className="inner">
@@ -11,7 +13,8 @@ const Footer = (props) => (
                 <li><a href="https://www.linkedin.com/in/haijing88/" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
             </ul>
             <ul className="copyright">
-                <li>&copy; All rights reserved</li><li>Design & Develop: <a href="https://designpholio.com"> by Haijing Liu </a></li>
+                <li>&copy;Design & Develop by <a href="http://designlens.info"> Haijing Oceanstill</a> &#9829; &amp;
+                with <a href="https://www.gatsbyjs.org/" className="icon"><span ><img width={10} height={10} src={gatsby}></img></span></a></li>
             </ul>
         </div>
     </footer>

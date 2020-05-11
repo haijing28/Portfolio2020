@@ -663,6 +663,7 @@ a.icon.alt:active:before {
 /* Image */
 .image {
   border: 0;
+  padding: 1em;
   display: inline-block;
   position: relative;
 }
@@ -672,7 +673,7 @@ a.icon.alt:active:before {
 }
 
 .image.left, .image.right {
-  max-width: 70%;
+  max-width: 100%;
 }
 
 .image.left img, .image.right img {
