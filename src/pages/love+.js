@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
-import { Glide } from 'react-glide';
+import { Glide } from 'react-glide'
 import 'react-glide/lib/reactGlide.css'
-import Layout from '../components/layout'
+import Layout from '../components/layout' 
 import BannerLanding from '../components/BannerLanding'
 
 
@@ -26,7 +26,7 @@ const Love = (props) => (
         <BannerLanding/>
 
         <div id="main">
-
+       
 
             <section id="one">
                 <div className="inner">
@@ -42,9 +42,12 @@ const Love = (props) => (
             <section id="two" className="spotlights">
 
                         <section >
-                   
                             <div className="image-container">
+                                <Glide>
                                 <img src={love1} alt="pca"/>
+                                <img src={love2} alt="pca"/>
+                                <img src={love3} alt="pca"/>
+                                </Glide>
                             </div>
                  
                             <div className="content">
