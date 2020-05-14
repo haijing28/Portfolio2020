@@ -38,14 +38,15 @@ const Love = (props) => (
 
              <section id="two" className="spotlights">
                 
-                            <section className="example">
+                            <section className="example">  
                             <div className="image-container">
-                                <Glide>
+                            <Glide> 
                                 <img src={love1} alt="pca"/>
                                 <img src={love2} alt="pca"/>
                                 <img src={love3} alt="pca"/>
-                                </Glide>
-                            </div>
+                            </Glide>
+                            </div>       
+                        
                  
                              <div className="content">
                                 <div className="inner">
@@ -63,6 +64,7 @@ const Love = (props) => (
                                     <Glide>
                                     <img src={love2} alt="reminder"/>
                                     <img src={love3} alt="reminder"/>
+                                    <img src={love4} alt="reminder"/>
                                     </Glide>
                                     </div>
 
@@ -121,8 +123,7 @@ const Love = (props) => (
                           </section>
                           
 
-                            <section>
-                                   <div className="inner">
+                            <section className="inner">
                                         <h2 id="content">User Journey</h2>
                                         <p> Jason is a XXX </p>
                                                 <div className="grid-wrapper">
@@ -134,10 +135,10 @@ const Love = (props) => (
                                                     <h3>Story2</h3>
                                                     <p> Jason XXX </p></div>
                                                 </div>
-                                              </div> 
+                    
                              </section>
 
-                      <section id="three" className="spotlights">
+                      <section id="two" className="spotlights">
 
                             <section className="example">
                                  <div className="image-container"> 
