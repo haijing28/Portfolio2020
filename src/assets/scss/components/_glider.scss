@@ -13,20 +13,24 @@ $img-width:(
     @return map-get($img-height,$img-heights)
 }
 
-
 @function width($img-widths){
     @return map-get($img-width,$img-widths)
 }
 
+
 .glide--container{
-    height:height1(height2);
-    width:width(width2);
-    padding: 2em 3em 3em 2em;
-    margin: 1em;
+    height:height1(height1);
+    width:width(width1);
     
 }
 
-
+.glide--container{
+    position:relative;
+    display:block;
+    height: 100%;
+    width:100%;
+    background-color: #dd9cba;
+}
 
 // interface GlideProps {
 //     autoPlay: boolean;
