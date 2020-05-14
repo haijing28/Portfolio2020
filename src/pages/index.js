@@ -131,9 +131,9 @@ class HomeIndex extends React.Component {
                             <header className="major">
                                 <h2>About & Objectives</h2>
                             </header>
-                            <p> Experience & Service Designer.
-                            Have a vision of implementing sustainable values among products, users and reshaping experience for our better humanity with compassion, sense of aesthetics, humor. 
-Knowledges of science and culture in hybrids.</p>
+                            <p> Vision-Driven Experience & Service Designer.</p>
+                            <p> +implementing sustainable values among products and people, reshaping experience for better humanity with compassion, sense of aesthetics, humour, knowledge in science and culture in hybrids.
+                           </p>
                             <ul className="actions">
                                 <li><Link to="/landing" className="button next">View Detail</Link></li>
                             </ul>
