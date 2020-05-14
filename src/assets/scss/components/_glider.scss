@@ -18,13 +18,13 @@ $img-width:(
 }
 
 
-.glide--container{
+/*.glide--container{
     position:relative;
-    display:block;
-    height:height1(height2);
-    width:width(width2);
+    display:inline-flex;
+    height:height1(height1);
+    width:width(width1);
     background-color: #dd9cba;
-}
+}*/
 
 .glide--dots .active-dot{color:_palette(highlight)}
 
