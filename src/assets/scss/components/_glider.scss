@@ -19,18 +19,14 @@ $img-width:(
 
 
 .glide--container{
-    height:height1(height1);
-    width:width(width1);
-    
-}
-
-.glide--container{
     position:relative;
     display:block;
-    height: 100%;
-    width:100%;
+    height:height1(height2);
+    width:width(width2);
     background-color: #dd9cba;
 }
+
+.glide--dots .active-dot{color:_palette(highlight)}
 
 // interface GlideProps {
 //     autoPlay: boolean;

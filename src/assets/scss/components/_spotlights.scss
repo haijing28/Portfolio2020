@@ -119,7 +119,7 @@
 		> section {
 			> .image {
 				width: 50%;
-				height:840px;
+				height:640px;
 			}
 
 			> .content {
@@ -146,10 +146,53 @@
 
 	@include breakpoint(small) {
 		> section {
+			
+			> .image {
+				width: 100%;
+				height:480px;
+			}
+
 			> .content {
 				@include padding(3em, 1.7em);
+				width: 50%;
 			}
 		}
 	}
+   
+	
+	@include breakpoint(xsmall) {
+		> section {
+			
+			> .image {
+				width: 100%;
+				height:480px;
+			}
+
+			> .content {
+				@include padding(3em, 1.7em);
+				width: 100%;
+			}
+		}
+	}
+
+	
+	@include breakpoint(xxsmall) {
+		> section {
+			
+			> .image {
+				width: 100%;
+				height:360px;
+			}
+
+			> .content {
+				@include padding(3em, 1.7em);
+				width: 100%!important;
+			}
+		}
+	}
+
+
+
+
  }
 
