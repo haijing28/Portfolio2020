@@ -1,8 +1,6 @@
 # the site is made with gatsby-starter-forty
 
-**This is a starter for Gatsby.js V2.**
 ** On MacMini & MacbookPro**
-
 
 <!--Install this starter (assuming Gatsby is installed) by running from your CLI:
 <br/>
