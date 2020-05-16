@@ -6,16 +6,16 @@
 
 /* Spotlights */
 
-#two{	display:block;
+// #two{	
+// 	display:block;
 
-}
+// }
+
 
 .spotlights {
 	border-top: 1.3em !important;
 	display:block;
 	position:relative;
-	// width:100%;
-	// height: 100%;
 
 	& + * {
 		border-top: 0 !important;
@@ -27,38 +27,48 @@
 		display: flex;
 		position: relative;
 		width: 100%;
-		height:460px;
 		background-color:desaturate(lighten(_palette(bg-alt), 2), 1); /*content*/
+		z-index:999;
 
+   /* @mediaQuery xsmall,small/medium/large,xlarge,xxlarge */
+
+		@include breakpoint(xsmall-phone){
+		display: block;
+		width:90%;
+		height:420px;
+	}
 		> .image-container {
 			background-position: center center;
 			background-size: cover;
 			border-radius: 5px;
 			display: inherit;
-			// display: block;
-			//position: relative;
 			width: 100%;
-			background-color:color(_palette(bg-alt)); /*#000;*/
+			height:450px;
+			background-color:color(_palette(bg-alt)); 
+			
+			@include breakpoint(xsmall-phone){
+				height:420px;
+				width:100%;
+				background-color:green;
+			}
+		}
+			
 
 			>.glide--container{
-				// position: relative;
-				// display:block;
+				position: relative;
+				display:block;
 				height:100%;
 				width:100%;
-				padding: 2em 3em 1em 3em;
-				margin: 0em 3em 0em 3em;
+				padding-top: 1.7em;
+				margin: 0em 3.2em 0em 3.2em;
 				
 				img {
-					// padding:1.2em;
-					// display:block;
-					// position: relative;
 					border-radius: 6px 2px 6px 2px ;
 					width: 100%;
 					height:auto;
 				}
 			}
 				
-
 				&:before {
 					background: transparentize(_palette(bg-alt), 0.1);
 					content: '';
@@ -71,142 +81,157 @@
 					width: 100%;
 				}
 		}
-
-		
-		
-		> .content {
-			@include vendor('display', 'flex');
-			@include vendor('flex-direction', 'column');
-			@include vendor('justify-content', 'center');
-			@include vendor('align-items', 'center');
-			@include padding(2.3em, 3em);
-			width: 50%;
-			height:100%;
-			display:block;
-			position: relative;
-
-			> .inner {
-				margin: 0 auto;
-			    padding:1.3em;
-				max-width: 100%;
-				width: _size(inner);
-			}
-		}
-
-		&:nth-child(2n) {
-			@include vendor('flex-direction', 'row-reverse');
-			background-color: desaturate(lighten(_palette(bg-alt), 4), 2);
-
-			> .content {
-				@include vendor('align-items', 'flex-end');
-			}
-		}
-	}
-
-	@include breakpoint(xxlarge) {
-		> section {
-			> .image {
-				width: 40%;
-				height:940px!important;
-			}
-
-			> .content {
-				width: 50%;
-			}
-		}
-	}
-
-	@include breakpoint(xlarge) {
-		> section {
-			> .image {
-				width: 50%;
-				height:840px;
-			}
-
-			> .content {
-				width: 50%;
-			}
-		}
-	}
-
-	@include breakpoint(large) {
-		> section {
-			> .image {
-				width: 50%;
-				height:640px;
-			}
-
-			> .content {
-				width: 50%;
-			}
-		}
-	}
-
-	@include breakpoint(medium) {
-		> section {
-			display: block;
-
-			> .image {
-				width: 100%;
-				height:480px;
-			}
-
-			> .content {
-				@include padding(3em, 2.3em);
-				width: 100%;
-			}
-		}
-	}
-
-	@include breakpoint(small) {
-		> section {
-			
-			> .image {
-				width: 100%;
-				height:480px;
-			}
-
-			> .content {
-				@include padding(3em, 1.7em);
-				width: 50%;
-			}
-		}
-	}
-   
 	
-	@include breakpoint(xsmall) {
-		> section {
-			
-			> .image {
-				width: 100%;
-				height:480px;
-			}
+	/*define content styling*/
+						> .content {
+							@include vendor('display', 'flex');
+							@include vendor('flex-direction', 'column');
+							@include vendor('justify-content', 'center');
+							@include vendor('align-items', 'center');
+							@include padding(2.3em, 3em);
+							width: 50%;
+							height:100%;
+							display:block;
+							position: relative;
+							background-color: blue;
 
-			> .content {
-				@include padding(3em, 1.7em);
-				width: 100%;
-			}
-		}
-	}
+							> .inner {
+								margin: 0 auto;
+								padding:2.3em;
+								max-width: 100%;
+								width: _size(inner);
+							}
+						}
 
-	
-	@include breakpoint(xxsmall) {
-		> section {
-			
-			> .image {
-				width: 100%;
-				height:360px;
-			}
+						&:nth-child(2n) {
+							@include vendor('flex-direction', 'row-reverse');
+							background-color: desaturate(lighten(_palette(bg-alt), 4), 2);
 
-			> .content {
-				@include padding(3em, 1.7em);
-				width: 100%!important;
-			}
-		}
-	}
+							> .content {
+								@include vendor('align-items', 'flex-end');
+							}
+						}
+
+				
+
+					// @include breakpoints(xxxlarge) {
+					// 	> section {
+					// 	>  .image-container img {
+					// 	width: 50%;
+					// 	// height:1080px!important;
+						
+					// 	}
+					
+					// 	> .content {
+					// 	width: 70%;
+					// 	}
+					// 	}
+					// }
+
+					// @include breakpoints(xxlarge) {
+					// 	> section {
+					// 		> .image-container img {
+					// 			width: 40%;
+					// 			//height:940px!important;
+					// 		}
+
+					// 		> .content {
+					// 			width: 50%;
+					// 		}
+					// 	}
+					// }
+
+					// @include breakpoints(xlarge) {
+					// 	> section {
+					// 		> .image-container img{
+					// 			width: 50%;
+					// 			//height:840px!important;
+					// 		}
+
+					// 		> .content {
+					// 			width: 50%;
+					// 		}
+					// 	}
+					// }
+
+					// @include breakpoints(large) {
+					// 	> section {
+					// 		> .image {
+					// 			width: 50%;
+					// 			height:640px!important;
+					// 		}
+
+					// 		> .content {
+					// 			width: 50%;
+					// 		}
+					// 	}
+					// }
+
+					// @include breakpoints(medium) {
+					// 	> section {
+					// 		display: block;
+
+					// 		> .image {
+					// 			width: 100%;
+					// 			height:480px!important;
+					// 		}
+
+					// 		> .content {
+					// 			@include padding(3em, 2.3em);
+					// 			width: 100%;
+					// 		}
+					// 	}
+					// }
+
+					// @include breakpoints(small) {
+					// 	> section {
+							
+					// 		> .image {
+					// 			width: 100%;
+					// 			height:480px!important;
+					// 		}
+
+					// 		> .content {
+					// 			@include padding(3em, 1.7em);
+					// 			width: 50%;
+					// 		}
+					// 	}
+					// }
+				
+					
+					// @include breakpoints(xsmall) {
+					// 	> section {
+							
+					// 		> .image {
+					// 			width: 100%;
+					// 			height:480px!important;
+					// 		}
+
+					// 		> .content {
+					// 			@include padding(3em, 1.7em);
+					// 			width: 100%;
+					// 		}
+					// 	}
+					// }
+
+					
+					// @include breakpoints(xxsmall) {
+					// 	> section {
+							
+					// 		> .image {
+					// 			width: 100%;
+					// 			height:360px;
+					// 		}
+
+					// 		> .content {
+					// 			@include padding(3em, 1.7em);
+					// 			width: 100%!important;
+					// 		}
+					// 	}
+					// }
 
 
+}
 
-
- }
-
+ 
+} 

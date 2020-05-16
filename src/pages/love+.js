@@ -28,7 +28,7 @@ const Love = (props) => (
                 <section id="one">
                     <div className="inner">
                         <header className="major">
-                            <h2> Love+ </h2>
+                            <h2> Offerings in brief </h2>
                         </header>
                         <p>Hardware as a service, for new caregivers who want to enrich the wellbeing life of their new retiree parents. Love+ provides a total wellbeing solution including customizable data-driven contents, gamified activities, and IoT appliances with AI analysis that synthesis mental and physical care program for parents in a single platform.
                         </p>
@@ -36,7 +36,7 @@ const Love = (props) => (
                 </section>
 
 
-             <section id="two" className="spotlights">
+             <section className="spotlights">
                 
                             <section className="example">  
                             <div className="image-container">
@@ -138,7 +138,9 @@ const Love = (props) => (
                     
                              </section>
 
-                      <section id="two" className="spotlights">
+
+
+                      <section  className="spotlights">
 
                             <section className="example">
                                  <div className="image-container"> 

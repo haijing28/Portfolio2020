@@ -4,7 +4,16 @@
 
 	/// Breakpoints.
 	/// @var {list}
-	$breakpoints: () !global;
+	$breakpoints: (
+		'xxxlarge',
+		'xxlarge',
+		'xlarge',
+		'large',
+		'medium',
+		'small',
+		'xsmall',
+		'xxsmall',
+	) !global;
 
 	/// Vendor prefixes.
 	/// @var {list}
@@ -581,7 +590,7 @@
 
 		// Neither? Treat them as a normal declaration.
 			@else {
-		        #{$property}: #{$value};
+		        #{$property}: #{$value}; 
 			}
 
 	}
