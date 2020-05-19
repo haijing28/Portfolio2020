@@ -18,11 +18,11 @@
 	@include skel-breakpoints((
 		xxxlarge:'(max-width: 2570px)',
         xxlarge: '(max-width: 1980px)',
-		xlarge: '(max-width: 1680px)',/*responsive larger browser*/
+		xlarge: '(max-width: 1320px)',/*responsive larger browser*/
 		large: '(max-width: 1270px)',
 		medium: '(max-width: 960px)',
 		small: '(max-width: 768px)', /*responsive small window browser*/
-		xsmall-phone: '(max-width: 480px)', /*adapt to phone*/
+		xsmall-phone: '(max-width: 720px)', /*adapt to phone*/ /* xsmall-phone: '(max-width: 490px)',*/
 		xxsmall-phone: '(max-width: 375px)',
 	));
 

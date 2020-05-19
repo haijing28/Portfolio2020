@@ -1426,7 +1426,7 @@ button:disabled,
 /* Spotlights */
 .spotlights {
   border-top: 1.3em !important;
-  display: block;
+  display: inline-block;
   position: relative;
 }
 
@@ -1475,13 +1475,13 @@ button:disabled,
 
 @media screen and (max-width: 480px) {
   .spotlights > .example > .image-container {
-    height: 420px;
+    height: 320px;
     width: 100%;
     background-color: green;
   }
 }
 
-.spotlights > .example > .image-container > .glide--container {
+.spotlights > .example > .glide--container {
   position: relative;
   display: block;
   height: 100%;
@@ -1490,13 +1490,11 @@ button:disabled,
   margin: 0em 3.2em 0em 3.2em;
 }
 
-.spotlights > .example > .image-container > .glide--container img {
+.spotlights > .example > .glide--container img {
   border-radius: 6px 2px 6px 2px;
-  width: 100%;
-  height: auto;
 }
 
-.spotlights > .example > .image-container:before {
+.spotlights > .example:before {
   background: rgba(99, 105, 110, 0.9);
   content: '';
   display: block;

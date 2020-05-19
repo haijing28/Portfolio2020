@@ -186,7 +186,7 @@ const Love = (props) => (
                                 <header className="major">
                                 <h2> Fullstack & to End Experience Designer </h2>
                                 </header>
-                                <hr></hr>
+            
                                 <p> • Serving the team as a full-stack to end user experience designer, drive to end design solutions in an agile development environment constantly.</p>
                                 <p> • Mainly contributed in interaction & experience & pixel perfect user interface design of product modules such as Family activities, Points system, Personal Reminders, User Profile, IOT, Group Buying, etc.</p>
                                 <p> • Conduct user research, +insights, arranging internal & external user research / branding marketing related workshops, mainly contributed in 1 focus group, 1 in-depth interview, 1 trademark workshop (collaborated with Global IP department ) and 1 conjoint analysis.</p> 
