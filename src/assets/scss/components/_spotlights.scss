@@ -39,7 +39,11 @@
 
 		@include breakpoint(xsmall-phone){
 		display: inline-block!important;
-		width:100%;
+		@include breakpoint(xlarge){
+
+			
+		}
+	
 		height:auto;
 	} 
 
@@ -51,6 +55,7 @@
 			background-size: cover;
 			border-radius: 5px;
 			display: inherit!important;
+			padding-left:2%;
 			background-color:color(_palette(fg-light)); 
 			
 			@include breakpoint(xsmall-phone){
@@ -59,7 +64,13 @@
 				margin-right:2.3%;
 			} 
 
-		
+			@media screen and (min-width: 1320px){
+			width:60%!important;
+			margin-left:4%;
+			margin-right:4%;
+			padding:2em;
+		//	background-color:red;
+			}
 
 
 		}
@@ -109,8 +120,6 @@
 							background-color:color(_palette(bg)); 
 
 							@include breakpoint(xsmall-phone){
-			
-						
 								display:inline-block;				
 								width: 100%;
 								position: relative;
@@ -124,6 +133,13 @@
 								max-width: 100%;
 								width: _size(inner);
 							}
+
+							@media screen and (min-width: 1320px){
+							 font-size: 1.2em!important;
+							 margin-left:-3%;								
+							}
+
+
 						}
 
 						&:nth-child(2n) {
