@@ -37,6 +37,7 @@
 			margin: 0 auto;
 			max-width: auto;/*_size(inner);*/
 			width: calc(100% - 20em);
+			font-size: 1.07em;
 
 			@include breakpoint(small) {
 				@include padding(3em, 0);

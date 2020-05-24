@@ -8,6 +8,10 @@ import BannerLanding from '../components/BannerLanding'
 
 
 import love1 from '../assets/images/love/Love1.png'
+import lovepca1 from '../assets/images/love/Love_pca_1a.png'
+import lovepca2 from '../assets/images/love/Love_pca_2.png'
+import lovepca3 from '../assets/images/love/Love_pca_3.png'
+import lovepca4 from '../assets/images/love/Love_pca_4.png'
 import love2 from '../assets/images/love/Love2.png'
 import love3 from '../assets/images/love/Love3.png'
 import love4 from '../assets/images/love/Love4.png'
@@ -30,7 +34,7 @@ const Love = (props) => (
                         <header className="major">
                             <h2> Offerings in brief </h2>
                         </header>
-                        <p>Hardware as a service, for new caregivers who want to enrich the wellbeing life of their new retiree parents. Love+ provides a total wellbeing solution including customizable data-driven contents, gamified activities, and IoT appliances with AI analysis that synthesis mental and physical care program for parents in a single platform.
+                        <p>Hardware as a service, for new caregivers who want to enrich the wellbeing life of their new retiree parents. Love+ provides a total wellbeing solution including customizable data-driven contents, gamified activities, IoT appliances with AI analysis approaches, caring points store that synthesize mental and physical care program for the family’s new retiree in a single platform.
                         </p>
                     </div>
                 </section>
@@ -41,9 +45,10 @@ const Love = (props) => (
                             <section className="example">  
                             <div className="image-container">
                             <Glide> 
-                                <img src={love1} alt="pca"/>
-                                <img src={love2} alt="pca"/>
-                                <img src={love3} alt="pca"/>
+                                <img src={lovepca1} alt="pca"/>
+                                <img src={lovepca2} alt="pca"/>
+                                <img src={lovepca3} alt="pca"/>
+                                <img src={lovepca4} alt="pca"/>
                             </Glide>
                             </div>       
                         
@@ -120,7 +125,12 @@ const Love = (props) => (
                                     </div>
                                 </section>
                          
+
+                         
                           </section>
+
+
+                          
                           
 
                             <section className="inner">

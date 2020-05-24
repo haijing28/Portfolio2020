@@ -23,6 +23,7 @@
 		min-height: 22em;
 		position: relative;
 		top: -3.25em;
+		font-size: 1.07em;
 
 		&:after {
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');

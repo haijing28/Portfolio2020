@@ -23,7 +23,7 @@ const Smartii = (props) => (
                     <header className="major">
                         <h2> Offerings in brief </h2>
                     </header>
-                    <p>Hardware as a service, for new caregivers who want to enrich the wellbeing life of their new retiree parents. Love+ provides a total wellbeing solution including customizable data-driven contents, gamified activities, and IoT appliances with AI analysis that synthesis mental and physical care program for parents in a single platform.
+                    <p> Hardware as a service, for new caregivers who want to enrich the wellbeing life of their new retiree parents. Love+ provides a total wellbeing solution including customizable data-driven contents, gamified activities, IoT appliances with AI analysis approaches, caring points store that synthesizes mental and physical care program for the family’s new retiree in a single platform.
                     </p>
                 </div>
             </section>
