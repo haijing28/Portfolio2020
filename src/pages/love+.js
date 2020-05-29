@@ -12,6 +12,9 @@ import lovepca1 from '../assets/images/love/Love_pca_1a.png'
 import lovepca2 from '../assets/images/love/Love_pca_2.png'
 import lovepca3 from '../assets/images/love/Love_pca_3.png'
 import lovepca4 from '../assets/images/love/Love_pca_4.png'
+import lovepca5 from '../assets/images/love/Love_pca_5.png'
+import loveReminder1 from '../assets/images/love/Love_reminder_1.png'
+import loveReminder2 from '../assets/images/love/Love_reminder_2.png'
 import love2 from '../assets/images/love/Love2.png'
 import love3 from '../assets/images/love/Love3.png'
 import love4 from '../assets/images/love/Love4.png'
@@ -49,6 +52,7 @@ const Love = (props) => (
                                 <img src={lovepca2} alt="pca"/>
                                 <img src={lovepca3} alt="pca"/>
                                 <img src={lovepca4} alt="pca"/>
+                                <img src={lovepca5} alt="pca"/>
                             </Glide>
                             </div>       
                         
@@ -58,7 +62,7 @@ const Love = (props) => (
                                     <header className="major">
                                         <h3> Parents-Children Activity </h3>
                                     </header>
-                                    <p> Parents - Children activity is one product module of the mental care section, it provides content ranging from generation-gap topics, wellbeing tips, titorial and quiz with gamified playful system so that children can invite their parents to play & interact. </p>
+                                    <p> One product module of the mental care section, it provides content driven topics ranging from generation-gap, wellbeing tips, retiree fashion .etc, with various forms like tutorial, quiz, and a gamified playful system enabling children give care to their parents while having fun </p>
                                 </div>
                             </div>
                             </section>
@@ -67,7 +71,8 @@ const Love = (props) => (
                             <section className="example">
                                     <div className= "image-container">
                                     <Glide>
-                                    <img src={love2} alt="reminder"/>
+                                    <img src={loveReminder1} alt="reminder"/>
+                                    <img src={loveReminder2} alt="reminder"/>
                                     <img src={love3} alt="reminder"/>
                                     <img src={love4} alt="reminder"/>
                                     </Glide>
@@ -76,10 +81,10 @@ const Love = (props) => (
                                      <div className="content">
                                         <div className="inner">
                                         <header className="major">
-                                        <h3>Bite-Size Reminder</h3>
+                                        <h3>Caring Reminder</h3>
                                         </header>
-                                        <p> Bite-Size Reminder drives by data with accurate caring contents. This automation system collects parents location, birthday and healthy information, caring reminders generates by weather, special occasions specifically,
-                                        so that children are enabled to send useful caring information when their parents are truly needed. </p>
+                                        <p> Caring Reminder drives by data with accurate wellbeing contents. The automation system collects parents location, birthday and health information, and generates caring reminder during special weather, special occasions specifically, 
+                                            so children are enabled to send useful wellbeing information when their parents are truly needed. </p>
                                         </div>
                                      </div>
 
